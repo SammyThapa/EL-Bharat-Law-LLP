@@ -39,37 +39,46 @@ function App() {
       <ScrollTop />
 
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/people" element={<People />} />
-        <Route path="/family" element={<FamilyLaw />} />
-        <Route path="/mari" element={<Mari />} />
-        <Route path="/coll" element={<Coll />} />
-        <Route path="/civil" element={<Civil />} />
-        <Route path="/criminal" element={<Criminal />} />
-        <Route path="/inter" element={<Inter />} />
-        <Route path="/corp" element={<Corp />} />
-        <Route path="/legal" element={<Legal />} />
-        <Route path="/labour" element={<Labour />} />
-        <Route path="/liaisoning" element={<Liaisoning />} />
-        <Route path="/tax" element={<Taxation />} />
-        <Route path="/nri" element={<NRI />} />
 
-        <Route path="/intellectual" element={<Intellectual />} />
-        <Route path="/visa" element={<Visa />} />
-        <Route path="/out" element={<Out />} />
-        <Route path="/pre" element={<Pre />} />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/people" element={<People />} />
 
-        <Route path="/draft" element={<Draft />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/blogs" element={<Blog />} />
-        <Route path="/blogdetails/:slug" element={<BlogDetails />} />
-        <Route path="/newsdetails/:slug" element={<NewsDetails />} />
-        <Route path="/capabilities/:slug" element={<CapabilitiesDetails />} />
-        <Route path="/people/:id" element={<PeopleDetails />} />
-      </Routes>
+          <Route path="/family" element={<FamilyLaw />} />
+          <Route path="/mari" element={<Mari />} />
+          <Route path="/coll" element={<Coll />} />
+          <Route path="/civil" element={<Civil />} />
+          <Route path="/criminal" element={<Criminal />} />
+          <Route path="/inter" element={<Inter />} />
+          <Route path="/corp" element={<Corp />} />
+          <Route path="/legal" element={<Legal />} />
+          <Route path="/labour" element={<Labour />} />
+          <Route path="/liaisoning" element={<Liaisoning />} />
+          <Route path="/tax" element={<Taxation />} />
+          <Route path="/nri" element={<NRI />} />
+
+          <Route path="/intellectual" element={<Intellectual />} />
+          <Route path="/visa" element={<Visa />} />
+          <Route path="/out" element={<Out />} />
+          <Route path="/pre" element={<Pre />} />
+
+          <Route path="/draft" element={<Draft />} />
+
+          <Route path="/news" element={<News />} />
+          <Route path="/blogs" element={<Blog />} />
+
+          <Route path="/blogdetails/:slug" element={<BlogDetails />} />
+          <Route path="/newsdetails/:slug" element={<NewsDetails />} />
+
+          <Route path="/capabilities/:slug" element={<CapabilitiesDetails />} />
+
+          <Route path="/people/:id" element={<PeopleDetails />} />
+        </Routes>
+      </main>
+
       <FloatingWhatsApp
         phoneNumber="917982350083"
         accountName="EL Bharat Law LLP"
@@ -79,6 +88,7 @@ function App() {
         allowClickAway={true}
         allowEsc={true}
       />
+
       <Footer />
     </BrowserRouter>
   );

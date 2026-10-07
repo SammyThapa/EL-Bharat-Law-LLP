@@ -55,7 +55,7 @@ main {
   width: 100%;
   min-width: 0;
   flex: 1;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 @media (max-width: 900px) {
@@ -65,12 +65,8 @@ main {
 }
 
 @media (max-width: 600px) {
-  html {
-    font-size: 15px;
-  }
-
   main {
     width: 100%;
-    padding-top: 65px;
+    padding-top: 60px;
   }
 }

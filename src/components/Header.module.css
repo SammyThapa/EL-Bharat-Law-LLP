@@ -6,15 +6,16 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
 
   width: 100%;
-  min-height: 70px;
+  height: 100px;
 
-  z-index: 1000;
+  z-index: 9999;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   padding: 10px 5%;
 
@@ -31,26 +32,28 @@
 .mainCon img {
   width: 100px;
   height: auto;
-  max-width: 100%;
+
   display: block;
+
+  flex-shrink: 0;
 }
 
 
 /* =========================
-   NAVIGATION
+   DESKTOP NAVIGATION
 ========================= */
 
 .listItem {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   gap: 35px;
 
-  list-style: none;
-
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .listItem > li {
@@ -62,24 +65,15 @@
   font-weight: 700;
 
   white-space: nowrap;
-
-  transition:
-    color 0.3s ease,
-    transform 0.3s ease;
 }
-
-.listItem > li:hover {
-  color: var(--color-accent);
-  cursor: pointer;
-  transform: translateY(-2px);
-}
-
-
-/* Links */
 
 .listItem a {
   color: inherit;
   text-decoration: none;
+}
+
+.listItem > li:hover {
+  color: var(--color-accent);
 }
 
 
@@ -110,7 +104,7 @@
 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 
-  z-index: 2000;
+  z-index: 10000;
 }
 
 .dropDownCss::before {
@@ -128,10 +122,9 @@
 .dropDownCss li {
   width: 100%;
 
-  box-sizing: border-box;
-
-  margin: 0;
   padding: 7px 14px;
+
+  box-sizing: border-box;
 
   color: var(--color-text-light);
 
@@ -141,21 +134,12 @@
   line-height: 1.4;
 
   white-space: normal;
-
-  cursor: pointer;
-
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    padding-left 0.2s ease;
 }
 
 .dropDownCss li:hover {
   color: var(--color-text);
 
   background-color: rgba(255, 255, 255, 0.15);
-
-  padding-left: 18px;
 }
 
 
@@ -169,137 +153,144 @@
   width: 42px;
   height: 42px;
 
-  padding: 8px;
+  margin-left: auto;
+  padding: 5px;
 
-  border: none;
+  border: 0;
+  outline: none;
 
   background: transparent;
 
   cursor: pointer;
 
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   gap: 5px;
+
+  flex-shrink: 0;
 }
 
 .menuButton span {
+  display: block;
+
   width: 24px;
   height: 2px;
 
-  display: block;
-
-  background-color: var(--color-text-light);
+  background-color: #ffffff;
 
   border-radius: 2px;
 
-  transition:
-    transform 0.3s ease,
-    opacity 0.3s ease;
+  flex-shrink: 0;
 }
 
 
 /* =========================
-   HAMBURGER ANIMATION
+   HAMBURGER OPEN
 ========================= */
 
-.menuOpen .menuButton span:nth-child(1) {
+.menuOpen span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
 
-.menuOpen .menuButton span:nth-child(2) {
+.menuOpen span:nth-child(2) {
   opacity: 0;
 }
 
-.menuOpen .menuButton span:nth-child(3) {
+.menuOpen span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
 
 
-/* =========================
-   TABLET
-========================= */
+/* ==================================================
+   MOBILE
+================================================== */
 
 @media screen and (max-width: 1000px) {
 
   .mainCon {
-    padding: 10px 4%;
-  }
+    width: 100% !important;
+    height: 65px;
 
-  .listItem {
-    gap: 22px;
-  }
-
-  .listItem > li {
-    font-size: 0.9rem;
-  }
-}
-/* =========================
-   MOBILE
-========================= */
-
-@media screen and (max-width: 768px) {
-  .mainCon {
-    min-height: 65px;
-    padding: 9px 18px;
-    justify-content: space-between;
+    padding: 8px 20px;
   }
 
   .mainCon img {
-    width: 78px;
+    width: 80px;
   }
 
-  /* Show hamburger */
+  /* FORCE HAMBURGER TO SHOW */
+
   .menuButton {
-    display: flex;
-    width: 34px;
-    height: 34px;
-    padding: 5px;
-    gap: 4px;
-    flex-shrink: 0;
+    display: flex !important;
+
+    position: relative;
+
+    width: 42px !important;
+    height: 42px !important;
+
+    margin-left: auto !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    z-index: 99999;
   }
 
   .menuButton span {
-    width: 20px;
-    height: 2px;
+    display: block !important;
+
+    width: 24px !important;
+    height: 2px !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    background-color: #ffffff !important;
   }
 
-  /* Hide navigation */
+
+  /* MOBILE NAV */
+
   .listItem {
     position: absolute;
-    top: 100%;
+
+    top: 65px;
     left: 0;
+
     width: 100%;
 
     display: none;
+
     flex-direction: column;
     align-items: stretch;
 
     gap: 0;
 
-    padding: 10px 18px 15px;
+    padding: 10px 20px 15px;
 
     background-color: var(--color-bg-dark-surface);
 
     box-sizing: border-box;
 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    z-index: 9998;
   }
 
-  /* Show navigation */
   .listOpen {
     display: flex;
   }
 
-  /* Mobile links */
   .listItem > li {
     width: 100%;
+
     padding: 13px 5px;
 
     font-size: 0.9rem;
 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    white-space: normal;
 
     transform: none;
   }
@@ -308,9 +299,8 @@
     transform: none;
   }
 
-  /* =========================
-     MOBILE DROPDOWN
-  ========================= */
+
+  /* MOBILE DROPDOWN */
 
   .hoveredLi {
     width: 100%;
@@ -337,24 +327,26 @@
   }
 
   .dropDownCss li {
-    padding: 9px 12px;
-    font-size: 0.8rem;
-    white-space: normal;
-  }
+    width: 100%;
 
-  .dropDownCss li:hover {
-    padding-left: 16px;
+    padding: 9px 12px;
+
+    font-size: 0.8rem;
   }
 }
 
 
-/* =========================
+/* ==================================================
    SMALL PHONES
-========================= */
+================================================== */
 
 @media screen and (max-width: 480px) {
+
   .mainCon {
-    min-height: 60px;
+    width: 85% !important;
+
+    height: 60px;
+
     padding: 8px 15px;
   }
 
@@ -363,37 +355,31 @@
   }
 
   .menuButton {
-    width: 32px;
-    height: 32px;
-    padding: 4px;
-    gap: 4px;
+    display: flex !important;
+
+    width: 40px !important;
+    height: 40px !important;
   }
 
   .menuButton span {
-    width: 19px;
-    height: 2px;
+    width: 22px !important;
+    height: 2px !important;
   }
 
   .listItem {
-    padding: 8px 15px 15px;
-  }
+    top: 60px;
 
-  .listItem > li {
-    padding: 12px 5px;
-    font-size: 0.88rem;
-  }
-
-  .dropDownCss li {
-    font-size: 0.78rem;
+    width: 100%;
   }
 }
 
 
-/* =========================
+/* ==================================================
    VERY SMALL PHONES
-========================= */
+================================================== */
 
 @media screen and (max-width: 360px) {
+
   .mainCon {
     padding: 8px 12px;
   }
@@ -403,23 +389,11 @@
   }
 
   .menuButton {
-    width: 30px;
-    height: 30px;
-    padding: 4px;
-    gap: 3px;
+    width: 38px !important;
+    height: 38px !important;
   }
 
   .menuButton span {
-    width: 18px;
-    height: 2px;
-  }
-
-  .listItem {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-
-  .listItem > li {
-    font-size: 0.84rem;
+    width: 20px !important;
   }
 }
