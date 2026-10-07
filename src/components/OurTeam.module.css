@@ -1,0 +1,252 @@
+.ourTeam {
+  width: 100%;
+  min-height: 550px;
+  padding: 80px 7%;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+
+  background-color: var(--color-bg-cream);
+  border-bottom: 1px solid rgba(18, 48, 79, 0.2);
+}
+
+/* Text */
+
+.content {
+  flex: 1;
+  max-width: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.content h2 {
+  max-width: 700px;
+  margin: 0;
+
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+
+  color: var(--color-text);
+}
+
+.content p {
+  max-width: 650px;
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+
+  color: var(--color-text);
+  opacity: 0.75;
+}
+
+/* Image */
+
+.ourTeam img {
+  width: 45%;
+  max-width: 550px;
+  height: 420px;
+
+  object-fit: cover;
+  display: block;
+
+  border-radius: 4px;
+}
+.ourTeam button {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+
+  background: var(--color-primary);
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.ourTeam button a {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.ourTeam button:hover {
+  background: var(--color-accent);
+  transform: translateX(5px);
+}
+
+.ourTeam button:hover a {
+  color: #111;
+}
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+  .ourTeam {
+    min-height: auto;
+    padding: 65px 5%;
+    gap: 40px;
+  }
+
+  .content {
+    max-width: 600px;
+    gap: 20px;
+  }
+
+  .content h2 {
+    max-width: 600px;
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+  }
+
+  .content p {
+    max-width: 550px;
+    font-size: 0.95rem;
+  }
+
+  .ourTeam img {
+    width: 42%;
+    height: 350px;
+  }
+
+  .ourTeam button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ourTeam button a {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .ourTeam {
+    width: 100%;
+    min-height: auto;
+    padding: 55px 20px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 100%;
+    gap: 17px;
+  }
+
+  .sectionLabel {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+  }
+
+  .content h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+  }
+
+  .content p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+
+  .ourTeam img {
+    width: 100%;
+    max-width: 100%;
+    height: 280px;
+    border-radius: 8px;
+  }
+
+  .ourTeam button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .ourTeam button a {
+    font-size: 1.25rem;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+  .ourTeam {
+    padding: 50px 16px;
+    gap: 27px;
+  }
+
+  .content {
+    gap: 15px;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+  }
+
+  .ourTeam img {
+    height: 240px;
+    border-radius: 7px;
+  }
+
+  .ourTeam button {
+    width: 45px;
+    height: 45px;
+  }
+
+  .ourTeam button a {
+    font-size: 1.15rem;
+  }
+}

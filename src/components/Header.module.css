@@ -1,0 +1,432 @@
+/* =========================
+   HEADER
+========================= */
+
+.mainCon {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  min-height: 70px;
+
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 5%;
+
+  background-color: var(--color-bg-dark-surface);
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.mainCon img {
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 35px;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.listItem > li {
+  position: relative;
+
+  color: var(--color-text-light);
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.listItem > li:hover {
+  color: var(--color-accent);
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+
+/* Links */
+
+.listItem a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================
+   DROPDOWN
+========================= */
+
+.hoveredLi {
+  position: relative;
+}
+
+.dropDownCss {
+  position: absolute;
+
+  top: calc(100% + 12px);
+  left: 0;
+
+  width: max-content;
+  min-width: 260px;
+  max-width: 320px;
+
+  margin: 0;
+  padding: 8px 0;
+
+  background-color: var(--color-accent);
+
+  list-style: none;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  z-index: 2000;
+}
+
+.dropDownCss::before {
+  content: "";
+
+  position: absolute;
+
+  top: -12px;
+  left: 0;
+
+  width: 100%;
+  height: 12px;
+}
+
+.dropDownCss li {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 7px 14px;
+
+  color: var(--color-text-light);
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  line-height: 1.4;
+
+  white-space: normal;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+.dropDownCss li:hover {
+  color: var(--color-text);
+
+  background-color: rgba(255, 255, 255, 0.15);
+
+  padding-left: 18px;
+}
+
+
+/* =========================
+   HAMBURGER
+========================= */
+
+.menuButton {
+  display: none;
+
+  width: 42px;
+  height: 42px;
+
+  padding: 8px;
+
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.menuButton span {
+  width: 24px;
+  height: 2px;
+
+  display: block;
+
+  background-color: var(--color-text-light);
+
+  border-radius: 2px;
+
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+
+/* =========================
+   HAMBURGER ANIMATION
+========================= */
+
+.menuOpen .menuButton span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menuOpen .menuButton span:nth-child(2) {
+  opacity: 0;
+}
+
+.menuOpen .menuButton span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 1000px) {
+
+  .mainCon {
+    padding: 10px 4%;
+  }
+
+  .listItem {
+    gap: 22px;
+  }
+
+  .listItem > li {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 768px) {
+
+  .mainCon {
+    min-height: 65px;
+
+    padding: 9px 20px;
+
+    justify-content: space-between;
+  }
+
+  .mainCon img {
+    width: 82px;
+  }
+
+
+  /* Show hamburger */
+
+  .menuButton {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+
+  /* Hide navigation */
+
+  .listItem {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    display: none;
+
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0;
+
+    padding: 10px 20px 15px;
+
+    background-color: var(--color-bg-dark-surface);
+
+    box-sizing: border-box;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+
+
+  /* Show navigation */
+
+  .listOpen {
+    display: flex;
+  }
+
+
+  /* Mobile links */
+
+  .listItem > li {
+    width: 100%;
+
+    padding: 13px 5px;
+
+    font-size: 0.95rem;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    transform: none;
+  }
+
+  .listItem > li:hover {
+    transform: none;
+  }
+
+
+  /* =========================
+     MOBILE DROPDOWN
+  ========================= */
+
+  .hoveredLi {
+    width: 100%;
+  }
+
+  .dropDownCss {
+    position: static;
+
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+
+    margin-top: 10px;
+
+    padding: 5px 0;
+
+    background-color: rgba(255, 255, 255, 0.05);
+
+    box-shadow: none;
+  }
+
+  .dropDownCss::before {
+    display: none;
+  }
+
+  .dropDownCss li {
+    padding: 9px 12px;
+
+    font-size: 0.82rem;
+
+    white-space: normal;
+  }
+
+  .dropDownCss li:hover {
+    padding-left: 16px;
+  }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media screen and (max-width: 480px) {
+
+  .mainCon {
+    min-height: 60px;
+    padding: 8px 15px;
+  }
+
+  .mainCon img {
+    width: 75px;
+  }
+
+  .menuButton {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuButton span {
+    width: 23px;
+  }
+
+  .listItem {
+    padding: 8px 15px 15px;
+  }
+
+  .listItem > li {
+    padding: 12px 5px;
+    font-size: 0.9rem;
+  }
+
+  .dropDownCss li {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* =========================
+   VERY SMALL PHONES
+========================= */
+
+@media screen and (max-width: 360px) {
+
+  .mainCon {
+    padding: 8px 12px;
+  }
+
+  .mainCon img {
+    width: 68px;
+  }
+
+  .menuButton {
+    width: 38px;
+    height: 38px;
+  }
+
+  .menuButton span {
+    width: 21px;
+  }
+
+  .listItem {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .listItem > li {
+    font-size: 0.85rem;
+  }
+}

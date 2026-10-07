@@ -1,0 +1,417 @@
+/* Main Page */
+.capPage {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 100px;
+
+  padding: 120px 6% 70px;
+
+  background: var(--color-bg-light, #f8fafc);
+  box-sizing: border-box;
+  
+}
+
+/* Main Layout */
+.conFlex {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 550px;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+/* Image Section */
+.imageBox {
+  flex: 1;
+  min-width: 0;
+  height: 500px;
+
+  overflow: hidden;
+  border-radius: 18px;
+  background-color: #e5e7eb;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  object-fit: cover;
+  object-position: center;
+
+  transition: transform 0.5s ease;
+}
+
+.imageBox:hover img {
+  transform: scale(1.04);
+}
+
+/* Content Section */
+.content {
+  flex: 1;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Small Label */
+.tag {
+  display: inline-block;
+
+  color: var(--color-accent, #c96f32);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Main Heading */
+.content h1 {
+  margin: 0;
+
+  color: var(--color-text-dark, #1f2937);
+  font-size: clamp(2.3rem, 4vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* Secondary Heading */
+.content h2 {
+  max-width: 500px;
+  margin: 0;
+
+  color: var(--color-accent, #c96f32);
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Paragraphs */
+.content p {
+  max-width: 580px;
+  margin: 0;
+
+  color: var(--color-text, #475569);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Button */
+.consultBtn {
+  margin-top: 15px;
+  padding: 14px 28px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: var(--color-accent, #c96f32);
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.consultBtn:hover {
+  background-color: var(--color-accent-dark, #a95725);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(201, 111, 50, 0.25);
+}
+.faqCon {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 80px 20px;
+  box-sizing: border-box;
+}
+
+.headingContent {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.headingContent h3 {
+  margin-bottom: 12px;
+  color: var(--color-accent);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.headingContent h2 {
+  margin: 0 0 18px;
+  color: var(--color-heading);
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.headingContent p {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faq {
+  width: 100%;
+  padding: 22px 25px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.faq:hover {
+  border-color: var(--color-accent);
+}
+
+.activeFaq {
+  background-color: #f3f7ff;
+  border-color: var(--color-accent);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.question p {
+  margin: 0;
+  color: var(--color-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.icon {
+  flex-shrink: 0;
+  color: var(--color-accent);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 0.3s ease;
+}
+
+/* Answer animation */
+.answerWrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.4s ease,
+    opacity 0.3s ease;
+}
+
+.answerWrapper .answer {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.answerOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.answer {
+  margin: 18px 35px 0 0;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .faqCon {
+    padding: 60px 20px;
+  }
+
+  .headingContent {
+    margin-bottom: 30px;
+  }
+
+  .headingContent h2 {
+    font-size: 2rem;
+  }
+
+  .faq {
+    padding: 20px;
+  }
+
+  .question p {
+    font-size: 1rem;
+  }
+
+  .answer {
+    margin-right: 25px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .faqCon {
+    padding: 45px 15px;
+  }
+
+  .headingContent h3 {
+    font-size: 0.85rem;
+  }
+
+  .headingContent h2 {
+    font-size: 1.7rem;
+  }
+
+  .headingContent p {
+    font-size: 0.9rem;
+  }
+
+  .faq {
+    padding: 17px;
+  }
+
+  .question {
+    gap: 12px;
+  }
+
+  .question p {
+    font-size: 0.95rem;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .answer {
+    margin: 15px 0 0;
+    font-size: 0.9rem;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 900px) {
+  .capPage {
+    padding: 110px 5% 60px;
+  }
+
+  .conFlex {
+    gap: 40px;
+  }
+
+  .imageBox {
+    height: 450px;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .capPage {
+    padding: 100px 20px 50px;
+  }
+
+  .conFlex {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 35px;
+  }
+
+  .imageBox {
+    width: 100%;
+    height: 300px;
+    order: 1;
+  }
+
+  .content {
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
+    order: 2;
+  }
+
+  .content h1 {
+    font-size: 2.4rem;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .consultBtn {
+    width: auto;
+    padding: 13px 24px;
+  }
+}
+
+/* Small Phones */
+@media screen and (max-width: 480px) {
+  .capPage {
+    padding: 90px 15px 40px;
+  }
+
+  .conFlex {
+    gap: 25px;
+  }
+
+  .imageBox {
+    height: 240px;
+    border-radius: 12px;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content h2 {
+    font-size: 1.3rem;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .consultBtn {
+    width: 100%;
+    padding: 13px 20px;
+  }
+}

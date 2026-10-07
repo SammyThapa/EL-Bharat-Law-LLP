@@ -1,0 +1,851 @@
+/* =========================
+   NEWS PAGE
+========================= */
+
+.newsSec {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   PAGE HEADING
+========================= */
+
+.headingCon {
+  width: 100%;
+  max-width: 750px;
+
+  margin: 120px auto 0;
+  padding: 50px 30px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  background: var(--color-text-light);
+  color: var(--color-text);
+
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.15;
+  font-weight: 700;
+
+  letter-spacing: -1px;
+}
+
+
+/* =========================
+   FEATURED BACKGROUND
+========================= */
+
+.background {
+  width: 100%;
+
+  padding: 70px 7%;
+
+  box-sizing: border-box;
+
+  background: var(--color-text-muted);
+}
+
+
+/* =========================
+   FEATURED TITLE
+========================= */
+
+.featured {
+  margin: 0 0 45px;
+
+  color: var(--color-primary);
+
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+
+/* =========================
+   FEATURED GRID
+========================= */
+
+.grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 55px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   FEATURED NEWS ITEM
+========================= */
+
+.designNew {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 20px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   FEATURED IMAGE
+========================= */
+
+.designNew img {
+  width: 250px;
+  height: 150px;
+
+  flex: 0 0 250px;
+
+  display: block;
+
+  object-fit: contain;
+
+  border-radius: 4px;
+}
+
+
+/* =========================
+   NEWS CONTENT
+========================= */
+
+.newsContent {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 12px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   TYPE + DATE
+========================= */
+
+.typeDate {
+  display: flex;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  color: #777;
+
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.typeDate span:first-child {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+
+/* =========================
+   NEWS TITLE
+========================= */
+
+.newsContent h2 {
+  width: 100%;
+
+  margin: 0;
+
+  color: var(--color-text);
+
+  font-size: 1.25rem;
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  overflow-wrap: break-word;
+}
+
+
+/* =========================
+   NEWS BUTTON
+========================= */
+
+.newsContent button {
+  padding: 11px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+
+  font-family: inherit;
+  font-size: 0.9rem;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.newsContent button:hover {
+  transform: translateY(-3px);
+
+  background-color: var(--color-accent);
+}
+
+
+/* ==================================================
+   BIG FEATURED NEWS
+================================================== */
+
+.bigNews {
+  width: 100%;
+  min-width: 0;
+margin-top: 50px;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 25px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* Big news image */
+
+.bigNews img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+/* Big news content */
+
+.bigNewsContent {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 15px;
+}
+
+.bigNewsContent h2 {
+  width: 100%;
+
+  margin: 0;
+
+  font-size: 1.5rem;
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  overflow-wrap: break-word;
+}
+
+.bigNewsContent p {
+  width: 100%;
+
+  margin: 0;
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   READ MORE
+========================= */
+
+.readMore {
+  margin-top: 5px;
+
+  padding: 11px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+
+  font-family: inherit;
+  font-size: 0.9rem;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.readMore:hover {
+  transform: translateY(-3px);
+
+  background-color: var(--color-accent);
+}
+
+
+/* ==================================================
+   OLD NEWS
+================================================== */
+
+.oldNews {
+  width: 100%;
+
+  padding: 70px 7%;
+
+  box-sizing: border-box;
+}
+
+.oldGrid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 45px;
+}
+
+
+/* =========================
+   OLD NEWS CARD
+========================= */
+
+.card {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  transition: transform 0.3s ease;
+
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+
+  cursor: pointer;
+}
+
+
+/* Card image */
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+
+  height: 200px;
+
+  display: block;
+
+  object-fit: contain;
+
+  border-radius: 5px;
+}
+
+
+/* Card content */
+
+.cardContent {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 8px;
+}
+
+.cardContent h2 {
+  width: 100%;
+
+  margin: 0;
+
+  font-size: 1.1rem;
+  line-height: 1.4;
+
+  font-weight: 600;
+
+  overflow-wrap: break-word;
+}
+
+.flexedContents {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  font-size: 0.75rem;
+
+  color: #777;
+}
+
+
+/* ==================================================
+   TABLET
+================================================== */
+
+@media screen and (max-width: 1100px) {
+
+  .background {
+    padding: 60px 5%;
+  }
+
+  .grid {
+    gap: 40px;
+  }
+
+  .designNew {
+    gap: 15px;
+  }
+
+  .designNew img {
+    width: 200px;
+    height: 125px;
+
+    flex-basis: 200px;
+  }
+
+  .newsContent h2 {
+    font-size: 1.1rem;
+  }
+
+  .bigNews img {
+    height: 260px;
+  }
+
+  .oldNews {
+    padding: 60px 5%;
+  }
+
+  .oldGrid {
+    gap: 30px;
+  }
+}
+
+
+/* ==================================================
+   SMALL TABLET
+================================================== */
+
+@media screen and (max-width: 850px) {
+
+  .headingCon {
+    margin-top: 100px;
+
+    padding: 40px 25px;
+
+    font-size: 3rem;
+  }
+
+
+  /* Featured becomes one column */
+
+  .grid {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+
+  .designNew {
+    max-width: 750px;
+  }
+
+
+  .designNew img {
+    width: 250px;
+    height: 145px;
+
+    flex-basis: 250px;
+  }
+
+
+  /* Old news */
+
+  .oldGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media screen and (max-width: 600px) {
+
+  /* =========================
+     PAGE HEADING
+  ========================= */
+
+  .headingCon {
+    width: 100%;
+
+    margin-top: 65px;
+
+    padding: 35px 20px;
+
+    font-size: 2.3rem;
+
+    line-height: 1.15;
+
+    letter-spacing: -0.8px;
+  }
+
+
+  /* =========================
+     FEATURED SECTION
+  ========================= */
+
+  .background {
+    width: 100%;
+
+    padding: 45px 20px 55px;
+  }
+
+  .featured {
+    margin-bottom: 30px;
+
+    font-size: 1.65rem;
+  }
+
+
+  /* =========================
+     FEATURED GRID
+  ========================= */
+
+  .grid {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 45px;
+  }
+
+
+  /* =========================
+     FEATURED ITEM
+  ========================= */
+
+  .designNew {
+    width: 100%;
+    max-width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: stretch;
+
+    gap: 15px;
+
+    box-sizing: border-box;
+  }
+
+
+  /* =========================
+     FEATURED IMAGE
+  ========================= */
+
+  .designNew img {
+    width: 100%;
+    height: auto;
+
+    max-width: 100%;
+
+    flex: none;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+  }
+
+
+  /* =========================
+     CONTENT
+  ========================= */
+
+  .newsContent {
+    width: 100%;
+
+    gap: 10px;
+  }
+
+
+  .typeDate {
+    width: 100%;
+
+    gap: 6px;
+
+    font-size: 0.75rem;
+  }
+
+
+  .newsContent h2 {
+    width: 100%;
+
+    font-size: 1.05rem;
+
+    line-height: 1.45;
+  }
+
+
+  .newsContent button {
+    padding: 10px 17px;
+
+    font-size: 0.82rem;
+  }
+
+
+  /* ==================================================
+     BIG NEWS MOBILE
+  ================================================== */
+
+  .bigNews {
+    width: 100%;
+    max-width: 100%;
+
+    gap: 18px;
+
+    overflow: hidden;
+  }
+
+
+  .bigNews img {
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+  }
+
+
+  .bigNewsContent {
+    width: 100%;
+
+    gap: 12px;
+  }
+
+
+  .bigNewsContent h2 {
+    width: 100%;
+
+    font-size: 1.15rem;
+
+    line-height: 1.4;
+  }
+
+
+  .bigNewsContent p {
+    width: 100%;
+
+    font-size: 0.9rem;
+
+    line-height: 1.7;
+  }
+
+
+  .readMore {
+    padding: 10px 17px;
+
+    font-size: 0.82rem;
+  }
+
+
+  /* ==================================================
+     OLD NEWS MOBILE
+  ================================================== */
+
+  .oldNews {
+    width: 100%;
+
+    padding: 45px 20px 55px;
+  }
+
+  .oldGrid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+
+  .card {
+    width: 100%;
+
+    gap: 12px;
+  }
+
+
+  .card img {
+    width: 100%;
+    max-width: 100%;
+
+    height: auto;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+  }
+
+
+  .cardContent {
+    width: 100%;
+  }
+
+
+  .cardContent h2 {
+    font-size: 1rem;
+
+    line-height: 1.45;
+  }
+
+
+  .flexedContents {
+    font-size: 0.7rem;
+  }
+}
+
+
+/* ==================================================
+   SMALL PHONES
+================================================== */
+
+@media screen and (max-width: 400px) {
+
+  .headingCon {
+    margin-top: 55px;
+
+    padding: 30px 16px;
+
+    font-size: 2rem;
+  }
+
+
+  .background {
+    padding: 40px 16px 50px;
+  }
+
+  .featured {
+    margin-bottom: 25px;
+
+    font-size: 1.5rem;
+  }
+
+
+  .grid {
+    gap: 40px;
+  }
+
+
+  .designNew {
+    gap: 13px;
+  }
+
+
+  .designNew img {
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: 16 / 9;
+  }
+
+
+  .typeDate {
+    font-size: 0.7rem;
+  }
+
+
+  .newsContent h2 {
+    font-size: 0.95rem;
+  }
+
+
+  .newsContent button {
+    padding: 9px 14px;
+
+    font-size: 0.78rem;
+  }
+
+
+  .bigNews {
+    gap: 15px;
+  }
+
+
+  .bigNewsContent h2 {
+    font-size: 1.05rem;
+  }
+
+
+  .bigNewsContent p {
+    font-size: 0.86rem;
+  }
+
+
+  .oldNews {
+    padding: 40px 16px 50px;
+  }
+
+
+  .oldGrid {
+    gap: 35px;
+  }
+
+
+  .cardContent h2 {
+    font-size: 0.92rem;
+  }
+}

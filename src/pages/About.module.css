@@ -1,0 +1,510 @@
+.aboutPage {
+  width: 100%;
+  padding: 100px 7%;
+
+  color: var(--color-text);
+  margin-top: 100px;
+}
+
+/* ---------------- INTRODUCTION ---------------- */
+
+.aboutIntro {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.introImage {
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--color-secondary);
+}
+
+.introImage img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.introImage:hover img {
+  transform: scale(1.04);
+}
+
+.introContent {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.introContent h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: var(--color-text);
+}
+
+.introContent p {
+  max-width: 520px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-primary);
+}
+
+
+
+/* ---------------- STATISTICS ---------------- */
+
+.stats {
+  max-width: 1250px;
+  margin: 130px auto 0;
+  padding: 45px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.subStat {
+  min-height: 130px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: 1px solid var(--color-border);
+}
+
+.subStat:first-child {
+  padding-left: 0;
+}
+
+.subStat:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.subStat span {
+  margin-bottom: 12px;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--color-accent);
+}
+
+.subStat h2 {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-text);
+}
+
+.subStat p {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+}
+
+/* ---------------- VISION AND MISSION ---------------- */
+
+.visionMission {
+  max-width: 1250px;
+  margin: 140px auto 0;
+}
+
+.visionHeader {
+  max-width: 700px;
+  margin-bottom: 55px;
+}
+
+.visionHeader h2 {
+  margin: 20px 0 0;
+  font-size: clamp(2.3rem, 5vw, 4.2rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: var(--color-text);
+}
+
+.visionGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.visionCard {
+  position: relative;
+  min-height: 300px;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid var(--color-border);
+  background: var(--color-secondary);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.visionCard:hover {
+  transform: translateY(-8px);
+  border-color: var(--color-accent);
+}
+
+.cardNumber {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--color-accent);
+}
+
+.visionCard h3 {
+  margin: 0 0 18px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.visionCard p {
+  max-width: 500px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-primary);
+}
+
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+@media (max-width: 900px) {
+
+  .aboutPage {
+    padding: 80px 5%;
+    margin-top: 70px;
+  }
+
+  .aboutIntro {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .introImage {
+    width: 100%;
+    height: 420px;
+  }
+
+  .introContent {
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .introContent h1 {
+    font-size: clamp(2.4rem, 6vw, 3.5rem);
+  }
+
+  .introContent p {
+    max-width: 700px;
+  }
+
+  .stats {
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+
+  .subStat {
+    min-height: 120px;
+    padding: 30px 20px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .subStat:nth-child(2),
+  .subStat:nth-child(4) {
+    border-right: none;
+  }
+
+  .subStat:nth-child(3),
+  .subStat:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .visionMission {
+    margin-top: 100px;
+  }
+
+  .visionHeader {
+    margin-bottom: 45px;
+  }
+
+  .visionHeader h2 {
+    font-size: clamp(2.3rem, 6vw, 3.5rem);
+  }
+
+  .visionGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .visionCard {
+    min-height: 280px;
+    padding: 35px;
+  }
+}
+
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 600px) {
+
+  .aboutPage {
+    width: 100%;
+    padding: 55px 20px;
+    margin-top: 60px;
+  }
+
+  /* Introduction */
+
+  .aboutIntro {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .introImage {
+    width: 100%;
+    height: 280px;
+    border-radius: 6px;
+  }
+
+  .introImage img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .introContent {
+    width: 100%;
+    max-width: 100%;
+    gap: 17px;
+  }
+
+  .sectionLabel {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+  }
+
+  .introContent h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 2.35rem;
+    line-height: 1.12;
+    letter-spacing: -1px;
+  }
+
+  .introContent p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+
+
+  /* Statistics */
+
+  .stats {
+    width: 100%;
+    margin-top: 75px;
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subStat {
+    min-height: 115px;
+    padding: 25px 12px;
+  }
+
+  .subStat span {
+    margin-bottom: 9px;
+    font-size: 2.1rem;
+  }
+
+  .subStat h2 {
+    font-size: 0.68rem;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+  }
+
+  .subStat p {
+    margin-top: 6px;
+    font-size: 0.72rem;
+    line-height: 1.5;
+  }
+
+
+  /* Vision & Mission */
+
+  .visionMission {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .visionHeader {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .visionHeader h2 {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+    font-size: 2.25rem;
+    line-height: 1.15;
+    letter-spacing: -1px;
+  }
+
+  .visionGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .visionCard {
+    width: 100%;
+    min-height: 250px;
+    padding: 30px 25px;
+  }
+
+  .cardNumber {
+    top: 22px;
+    right: 24px;
+    font-size: 0.7rem;
+  }
+
+  .visionCard h3 {
+    margin-bottom: 14px;
+    font-size: 1.45rem;
+    line-height: 1.3;
+  }
+
+  .visionCard p {
+    max-width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+}
+
+
+/* ---------------- SMALL MOBILE ---------------- */
+
+@media (max-width: 400px) {
+
+  .aboutPage {
+    padding: 50px 16px;
+  }
+
+  /* Introduction */
+
+  .aboutIntro {
+    gap: 30px;
+  }
+
+  .introImage {
+    height: 240px;
+  }
+
+  .introContent {
+    gap: 15px;
+  }
+
+  .introContent h1 {
+    font-size: 2.05rem;
+  }
+
+  .introContent p {
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+
+  /* Statistics */
+
+  .stats {
+    margin-top: 65px;
+  }
+
+  .subStat {
+    min-height: 105px;
+    padding: 22px 8px;
+  }
+
+  .subStat span {
+    font-size: 1.9rem;
+  }
+
+  .subStat h2 {
+    font-size: 0.62rem;
+  }
+
+  .subStat p {
+    font-size: 0.68rem;
+  }
+
+
+  /* Vision & Mission */
+
+  .visionMission {
+    margin-top: 70px;
+  }
+
+  .visionHeader {
+    margin-bottom: 30px;
+  }
+
+  .visionHeader h2 {
+    font-size: 2rem;
+  }
+
+  .visionCard {
+    min-height: 230px;
+    padding: 27px 20px;
+  }
+
+  .cardNumber {
+    top: 18px;
+    right: 19px;
+  }
+
+  .visionCard h3 {
+    font-size: 1.3rem;
+  }
+
+  .visionCard p {
+    font-size: 0.86rem;
+  }
+}

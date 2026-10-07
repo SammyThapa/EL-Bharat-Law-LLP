@@ -1,0 +1,383 @@
+/* =========================
+   PEOPLE INTRO
+========================= */
+
+.People {
+  width: 100%;
+  padding: 100px 7%;
+  margin-top: 100px;
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.content img {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  min-width: 0;
+}
+
+.alignment h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.alignment:last-child {
+  max-width: 650px;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--color-text);
+  opacity: 0.75;
+}
+
+
+/* =========================
+   TEAM SECTION
+========================= */
+
+.team {
+  width: 100%;
+  padding: 100px 7%;
+  box-sizing: border-box;
+  background: var(--color-bg);
+}
+
+.team > h2 {
+  margin: 0 0 100px;
+  color: var(--color-text);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+
+/* =========================
+   TEAM GRID
+========================= */
+
+.teamGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 55px 35px;
+}
+
+
+/* =========================
+   TEAM CARD
+========================= */
+
+.teamCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.teamCard:hover {
+  transform: translateY(-6px);
+}
+
+
+/* =========================
+   TEAM IMAGE
+========================= */
+
+.imageContainer {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--color-bg-cream);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.teamCard:hover .imageContainer img {
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   CARD CONTENT
+========================= */
+
+.cardContent {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.cardContent h3 {
+  margin: 0 0 7px;
+  text-align: center;
+  color: var(--color-text);
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+.cardContent p {
+  margin: 0;
+  text-align: center;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 900px) {
+
+  .People {
+    padding: 80px 5%;
+    margin-top: 70px;
+  }
+
+  .content {
+    gap: 35px;
+  }
+
+  .content img {
+    width: 380px;
+    height: 380px;
+  }
+
+  .alignment h2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+
+  .alignment:last-child {
+    font-size: 0.95rem;
+  }
+
+  .team {
+    padding: 80px 5%;
+  }
+
+  .team > h2 {
+    margin-bottom: 70px;
+    font-size: 3rem;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 45px 25px;
+  }
+
+  .imageContainer {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 600px) {
+
+  /* PEOPLE INTRO */
+
+  .People {
+    width: 100%;
+    padding: 55px 20px;
+    margin-top: 60px;
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .content img {
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .alignment {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .alignment h2 {
+    width: 100%;
+    font-size: 1.25rem;
+    letter-spacing: 1.8px;
+    line-height: 1.3;
+  }
+
+  .alignment:last-child {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+
+
+  /* TEAM */
+
+  .team {
+    width: 100%;
+    padding: 55px 20px;
+  }
+
+  .team > h2 {
+    width: 100%;
+    margin: 0 0 40px;
+    font-size: 2.3rem;
+    line-height: 1.15;
+    letter-spacing: -0.8px;
+  }
+
+  .teamGrid {
+    width: 100%;
+    display: grid;
+
+    /* ONE PERSON PER ROW */
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .teamCard {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .imageContainer {
+    width: 160px;
+    height: 160px;
+  }
+
+  .cardContent {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .cardContent h3 {
+    font-size: 1.15rem;
+  }
+
+  .cardContent p {
+    font-size: 0.88rem;
+  }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media screen and (max-width: 400px) {
+
+  .People {
+    padding: 50px 16px;
+    margin-top: 50px;
+  }
+
+  .content {
+    gap: 25px;
+  }
+
+  .content img {
+    width: 100%;
+    max-width: 350px;
+    height: 230px;
+  }
+
+  .alignment {
+    gap: 13px;
+  }
+
+  .alignment h2 {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+  }
+
+  .alignment:last-child {
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+
+  .team {
+    padding: 50px 16px;
+  }
+
+  .team > h2 {
+    margin-bottom: 35px;
+    font-size: 2rem;
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .imageContainer {
+    width: 145px;
+    height: 145px;
+  }
+
+  .cardContent h3 {
+    font-size: 1.05rem;
+  }
+
+  .cardContent p {
+    font-size: 0.82rem;
+  }
+}
