@@ -22,51 +22,80 @@
 
 html {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
+
   scroll-behavior: smooth;
+
+  overflow-x: hidden;
 }
 
 body {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
+
   margin: 0;
   padding: 0;
+
   background: var(--color-bg);
   color: var(--color-text);
+
   font-family: "Manrope", sans-serif;
+
   overflow-x: hidden;
 }
 
 #root {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
   min-height: 100vh;
+
+  overflow-x: hidden;
 }
 
 .app {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
 }
 
 main {
   width: 100%;
+  max-width: 100%;
   min-width: 0;
+
   flex: 1;
-  padding-top: 70px;
+
+  padding-top: 100px;
+
+  overflow-x: hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   main {
-    padding-top: 70px;
+    padding-top: 65px;
   }
 }
 
 @media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
   main {
     width: 100%;
+    max-width: 100%;
+
     padding-top: 60px;
+
+    overflow-x: hidden;
   }
 }
