@@ -6,7 +6,6 @@
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
 
   width: 100%;
   height: 100px;
@@ -65,15 +64,17 @@
   font-weight: 700;
 
   white-space: nowrap;
+
+  transition: color 0.3s ease;
+}
+
+.listItem > li:hover {
+  color: var(--color-accent);
 }
 
 .listItem a {
   color: inherit;
   text-decoration: none;
-}
-
-.listItem > li:hover {
-  color: var(--color-accent);
 }
 
 
@@ -134,12 +135,21 @@
   line-height: 1.4;
 
   white-space: normal;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    padding-left 0.2s ease;
 }
 
 .dropDownCss li:hover {
   color: var(--color-text);
 
   background-color: rgba(255, 255, 255, 0.15);
+
+  padding-left: 18px;
 }
 
 
@@ -156,8 +166,7 @@
   margin-left: auto;
   padding: 5px;
 
-  border: 0;
-  outline: none;
+  border: none;
 
   background: transparent;
 
@@ -178,11 +187,13 @@
   width: 24px;
   height: 2px;
 
-  background-color: #ffffff;
+  background-color: var(--color-text-light);
 
   border-radius: 2px;
 
-  flex-shrink: 0;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
 }
 
 
@@ -204,13 +215,13 @@
 
 
 /* ==================================================
-   MOBILE
+   TABLET
 ================================================== */
 
 @media screen and (max-width: 1000px) {
 
   .mainCon {
-    width: 100% !important;
+    width: 90%;
     height: 65px;
 
     padding: 8px 20px;
@@ -220,36 +231,11 @@
     width: 80px;
   }
 
-  /* FORCE HAMBURGER TO SHOW */
+  /* HAMBURGER */
 
   .menuButton {
-    display: flex !important;
-
-    position: relative;
-
-    width: 42px !important;
-    height: 42px !important;
-
-    margin-left: auto !important;
-
-    opacity: 1 !important;
-    visibility: visible !important;
-
-    z-index: 99999;
+    display: flex;
   }
-
-  .menuButton span {
-    display: block !important;
-
-    width: 24px !important;
-    height: 2px !important;
-
-    opacity: 1 !important;
-    visibility: visible !important;
-
-    background-color: #ffffff !important;
-  }
-
 
   /* MOBILE NAV */
 
@@ -275,8 +261,6 @@
     box-sizing: border-box;
 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-
-    z-index: 9998;
   }
 
   .listOpen {
@@ -332,6 +316,47 @@
     padding: 9px 12px;
 
     font-size: 0.8rem;
+
+    white-space: normal;
+  }
+
+  .dropDownCss li:hover {
+    padding-left: 16px;
+  }
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media screen and (max-width: 768px) {
+
+  .mainCon {
+    width: 85%;
+    height: 65px;
+
+    padding: 8px 18px;
+  }
+
+  .mainCon img {
+    width: 76px;
+  }
+
+  .menuButton {
+    display: flex;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .menuButton span {
+    width: 22px;
+    height: 2px;
+  }
+
+  .listItem {
+    top: 65px;
   }
 }
 
@@ -343,8 +368,7 @@
 @media screen and (max-width: 480px) {
 
   .mainCon {
-    width: 85% !important;
-
+    width: 85%;
     height: 60px;
 
     padding: 8px 15px;
@@ -355,21 +379,31 @@
   }
 
   .menuButton {
-    display: flex !important;
+    display: flex;
 
-    width: 40px !important;
-    height: 40px !important;
+    width: 38px;
+    height: 38px;
   }
 
   .menuButton span {
-    width: 22px !important;
-    height: 2px !important;
+    width: 21px;
+    height: 2px;
   }
 
   .listItem {
     top: 60px;
 
-    width: 100%;
+    padding: 8px 15px 15px;
+  }
+
+  .listItem > li {
+    padding: 12px 5px;
+
+    font-size: 0.88rem;
+  }
+
+  .dropDownCss li {
+    font-size: 0.78rem;
   }
 }
 
@@ -381,6 +415,8 @@
 @media screen and (max-width: 360px) {
 
   .mainCon {
+    width: 85%;
+
     padding: 8px 12px;
   }
 
@@ -389,11 +425,20 @@
   }
 
   .menuButton {
-    width: 38px !important;
-    height: 38px !important;
+    width: 36px;
+    height: 36px;
   }
 
   .menuButton span {
-    width: 20px !important;
+    width: 20px;
+  }
+
+  .listItem {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .listItem > li {
+    font-size: 0.84rem;
   }
 }
