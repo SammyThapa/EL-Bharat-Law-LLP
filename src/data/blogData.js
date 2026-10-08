@@ -6,7 +6,8 @@ const blogData = [
   {
     id: 1,
     img: img1,
-    title: "Equal Pay for Equal Work in India",
+    title:
+      "When Does a Commercial Dispute Become a Criminal Offence? Supreme Court Clarifies the Limits of Cheating Prosecutions",
     slug: "equal-pay-for-equal-work-in-india",
   },
   {

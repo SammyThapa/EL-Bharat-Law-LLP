@@ -2,301 +2,180 @@ import img1 from "../../assets/blogImages/blog1.png";
 
 const equalPay = {
   id: 1,
-
   img: img1,
 
   title:
-    "Equal Pay for Equal Work in India: Understanding the Supreme Court’s Latest Position",
+    "When Does a Commercial Dispute Become a Criminal Offence? Supreme Court Clarifies the Limits of Cheating Prosecutions",
 
   slug: "equal-pay-for-equal-work-in-india",
 
-  date: "12 Aug, 2026",
+  date: "8 Oct, 2026",
 
-  type: "Employment Law",
+  type: "Business & Criminal Law",
 
   introduction:
-    "The principle of “equal pay for equal work” is an important component of equality in employment under Indian constitutional law. It reflects the idea that employees performing substantially comparable work should not ordinarily be subjected to arbitrary or irrational differences in remuneration.",
+    'Business disputes are a normal part of commercial life. A payment may get delayed, goods may not be delivered on time, a contract may not work out as expected, or two business partners may disagree over their respective obligations. But sometimes, what begins as a business disagreement ends up as a criminal complaint. This raises an important legal question: When does a simple commercial dispute become a criminal offence such as cheating? The Supreme Court has repeatedly made it clear that a failed business transaction cannot automatically be treated as a criminal act. At the same time, calling something a "commercial dispute" does not protect a person who deliberately deceived another party from the very beginning. The real issue is therefore not simply whether a contract was broken. The important question is: Was there dishonest or fraudulent intention when the transaction was entered into?',
 
   content: [
     {
-      heading: "Introduction",
+      heading: "A Business Deal Going Wrong Is Not Always Cheating",
 
       paragraphs: [
-        "The principle of “equal pay for equal work” is an important component of equality in employment under Indian constitutional law. It reflects the idea that employees performing substantially comparable work should not ordinarily be subjected to arbitrary or irrational differences in remuneration.",
+        "Imagine a company agrees to supply goods to another business. The buyer makes an advance payment, but later the supplier faces financial problems and is unable to complete the order. The buyer may have every right to seek a refund, damages or other contractual remedies. But does that automatically mean the supplier committed cheating? Not necessarily.",
 
-        "However, the Supreme Court of India has repeatedly clarified that pay parity is not determined merely by comparing job titles or broad similarities in duties. The Court has examined factors such as the nature and quality of work, responsibilities, qualifications, recruitment method, experience and conditions of service.",
+        "If the supplier genuinely intended to perform the contract when the agreement was made, but later failed because of financial difficulties, unforeseen circumstances or other reasons, the matter may remain essentially civil or commercial in nature.",
 
-        "In its latest decision in G.P. Sangeetha & Ors. v. State of Kerala & Ors., reported as 2026 LiveLaw (SC) 948, the Supreme Court has reiterated that the doctrine cannot be applied mechanically. The Court held that differences in experience arising from different modes of appointment may constitute a legitimate basis for different pay scales.",
+        "The position would be different if the supplier never intended to supply the goods in the first place and deliberately made false representations only to obtain the buyer's money. In that situation, the dispute may cross the line into criminal cheating.",
       ],
     },
 
     {
-      heading: "1. What Does “Equal Pay for Equal Work” Mean?",
+      heading: "The Intention at the Beginning Matters",
 
       paragraphs: [
-        "“Equal pay for equal work” means that where employees perform work that is substantially equal in terms of duties, responsibilities, qualifications, skill, effort and working conditions, an arbitrary difference in remuneration may raise an equality concern.",
+        "This is perhaps the most important principle in cheating cases. The law looks closely at the accused person's intention at the time the promise or representation was made.",
 
-        "The principle is closely associated with Article 14 of the Constitution of India, which guarantees equality before the law and equal protection of the laws.",
+        "A person cannot ordinarily be accused of cheating simply because a promise was not fulfilled later. For criminal cheating to be established, there must generally be material indicating that the person had a dishonest or fraudulent intention from the beginning and used deception to induce the other person to part with property or money.",
 
-        "It is also reflected in Article 39(d) of the Directive Principles of State Policy, which directs the State towards securing equal pay for men and women for equal work.",
-
-        "Although Article 39(d) is not itself directly enforceable in the same manner as a fundamental right, the Supreme Court has historically considered it alongside Article 14 while developing the jurisprudence of pay parity.",
+        "In simple terms: A promise that later fails is not automatically a fraudulent promise. What matters is whether it was a dishonest promise from the very start.",
       ],
     },
 
     {
-      heading: "2. The Supreme Court’s Latest Position",
+      heading: "The Supreme Court's Approach",
 
       paragraphs: [
-        "In G.P. Sangeetha & Ors. v. State of Kerala & Ors., the Supreme Court considered a claim raised by directly recruited Higher Secondary School Teachers, Junior (HSST, Jr.) in government-aided schools in Kerala.",
+        "The Supreme Court has consistently warned against turning ordinary contractual disputes into criminal cases. In Parag Kishore Satoskar & Others v. State of Jharkhand & Another, the Court examined allegations arising from a commercial transaction and considered whether the facts disclosed offences including cheating and criminal breach of trust.",
 
-        "The employees sought parity with HSST, Jr. teachers appointed through transfer or promotion, arguing that the two categories performed substantially similar duties and responsibilities.",
+        "The Court reiterated the distinction between a mere breach of contract and cheating. Where the necessary dishonest intention at the inception of the transaction is not established, a subsequent failure to perform the contract cannot, by itself, become cheating.",
 
-        "A Bench comprising Justice Dipankar Datta and Justice Sheel Nagu rejected the claim for automatic parity and upheld the distinction in pay scales. The Court recognised that the difference in experience between directly recruited employees and employees appointed through promotion or transfer could constitute a valid basis for classification.",
-      ],
-
-      highlight:
-        "Similarity of duties, by itself, does not automatically establish a legal entitlement to identical pay.",
-
-      paragraphsAfterHighlight: [
-        "The Court emphasised that the doctrine of equal pay for equal work must not be applied mechanically.",
+        "The Court also examined the allegation of criminal breach of trust and emphasized the importance of the legal requirement of entrustment. The decision is a useful reminder that criminal law cannot be invoked merely because a commercial relationship has gone sour.",
       ],
     },
 
     {
-      heading: "3. Why Experience Matters",
+      heading: "Why This Distinction Matters",
 
       paragraphs: [
-        "One of the significant aspects of the latest ruling is the Court’s consideration of experience as a relevant factor in determining pay structure.",
+        "A criminal case can have serious consequences for an individual or a business. An FIR can lead to investigation, court proceedings, bail applications, reputational damage and significant financial and professional pressure.",
 
-        "Employees may perform similar functions but enter a particular cadre through different routes.",
-      ],
+        "For this reason, the criminal justice system cannot be used simply as a way to put pressure on someone to pay money or perform a contract.",
 
-      list: [
-        "One employee may be appointed through direct recruitment.",
-        "Another may enter through promotion.",
-        "Another may be appointed through transfer after serving in another post.",
-      ],
+        'For example, if a person says: "You owe me ₹10 lakh because you did not perform our agreement." that may give rise to a civil claim.',
 
-      paragraphsAfterList: [
-        "Such employees may have different levels of prior service experience, responsibilities or institutional knowledge.",
-
-        "The Supreme Court has recognised that experience can constitute an intelligible basis for classification, provided that the distinction has a rational relationship with the service structure and the objectives of the classification.",
-
-        "Accordingly, an employer or government authority may, in appropriate circumstances, maintain different pay scales without necessarily violating Article 14.",
+        'But if the allegation is: "You knowingly made false statements, never intended to perform the agreement, and used those false statements to make me hand over ₹10 lakh." the situation is legally very different. The second set of facts may potentially disclose cheating.',
       ],
     },
 
     {
-      heading: "4. Equal Designation Does Not Necessarily Mean Equal Pay",
+      heading: "A Civil Remedy Does Not Always Rule Out Criminal Action",
 
       paragraphs: [
-        "A recurring principle in Supreme Court jurisprudence is that designation alone is not determinative.",
+        "There is another important side to this principle. The Supreme Court has never said that a dispute becomes purely civil simply because a contract exists. A single transaction can, in appropriate circumstances, give rise to both civil and criminal consequences.",
 
-        "Two employees may carry the same or similar designation but still have differences in:",
-      ],
+        "For example, a business transaction may involve a contractual obligation as well as deliberate deception or misappropriation. Therefore, the existence of an arbitration clause, civil suit or recovery remedy does not automatically prevent criminal proceedings.",
 
-      list: [
-        "Duties",
-        "Degree of responsibility",
-        "Qualifications",
-        "Experience",
-        "Accountability",
-        "Recruitment method",
-        "Working conditions",
-        "Sensitivity or confidentiality of functions",
-        "Volume or quality of work",
-      ],
-
-      paragraphsAfterList: [
-        "Therefore, a claim based solely on the fact that two employees have the same designation is generally insufficient.",
-
-        "The Court has previously stated that the claimant must establish substantive parity rather than relying merely on nomenclature. The established jurisprudence places the burden of demonstrating comparable duties and responsibilities substantially on the person seeking pay parity.",
+        "The real question is: Do the facts independently satisfy the ingredients of a criminal offence? If they do, criminal law may legitimately be involved. If they do not, a criminal complaint should not be used merely to give additional pressure to a civil claim.",
       ],
     },
 
     {
-      heading: "5. The Burden of Establishing Pay Parity",
+      heading: "Cheating and Criminal Breach of Trust Are Different",
 
       paragraphs: [
-        "A person claiming equal pay cannot ordinarily succeed merely by stating that another employee receives a higher salary.",
-
-        "The claimant must demonstrate that the relevant posts are comparable in the legally significant sense.",
-
-        "The Supreme Court’s established principles include examination of:",
+        "It is also important not to treat cheating and criminal breach of trust as interchangeable offences.",
       ],
 
       subsections: [
         {
-          heading: "A. Nature of Duties",
+          heading: "Cheating",
           paragraphs: [
-            "The actual duties performed by the employees must be examined rather than merely comparing their job titles.",
+            "Cheating generally involves deception and dishonest or fraudulent inducement that causes another person to deliver property or take an action that they otherwise would not have taken.",
           ],
         },
 
         {
-          heading: "B. Responsibilities",
+          heading: "Criminal Breach of Trust",
           paragraphs: [
-            "Differences in responsibility can justify differences in remuneration.",
-          ],
-        },
-
-        {
-          heading: "C. Qualifications",
-          paragraphs: [
-            "Where one category requires different or higher qualifications, that factor can be relevant to determining pay parity.",
-          ],
-        },
-
-        {
-          heading: "D. Experience",
-          paragraphs: [
-            "Relevant prior experience may provide a legitimate basis for distinguishing between categories of employees.",
-          ],
-        },
-
-        {
-          heading: "E. Quality and Sensitivity of Work",
-          paragraphs: [
-            "The work must be comparable not merely in quantity but also in quality, sensitivity and responsibility.",
-          ],
-        },
-
-        {
-          heading: "F. Recruitment Method",
-          paragraphs: [
-            "The manner in which employees enter a service or cadre can also be relevant to determining whether two categories are legally comparable.",
+            "Criminal breach of trust involves a different concept. A key element is entrustment of property or dominion over property, followed by dishonest misappropriation or use in violation of the relevant obligation.",
           ],
         },
       ],
 
       paragraphsAfterSubsections: [
-        "These principles are consistent with the Supreme Court’s earlier formulation that the claimant bears the burden of establishing that the work performed is of equal value to the reference post.",
+        "Therefore, simply receiving money under a business contract and subsequently failing to perform that contract does not automatically establish criminal breach of trust. The nature of the transaction has to be examined carefully.",
       ],
     },
 
     {
-      heading: "6. The Principle Is Not an Automatic Right to Identical Salary",
+      heading: "The Court Looks at Facts, Not Just Labels",
 
       paragraphs: [
-        "The latest ruling should not be understood as eliminating the principle of equal pay for equal work.",
+        'One common problem in criminal complaints arising from business disputes is the use of strong words such as: "fraud"; "cheating"; "dishonest"; "criminal conspiracy"; or "misappropriation."',
 
-        "Rather, it clarifies its legal application.",
+        "But simply using these words does not establish an offence. Courts look at the actual facts and circumstances.",
 
-        "The principle continues to operate where employees are placed in different pay structures without a reasonable basis despite performing substantially comparable work.",
+        "What was promised? What representations were made? What did the parties know at the time? Was there an intention to perform? Was money or property obtained through deception? Was property actually entrusted?",
 
-        "However, the existence of some functional similarity does not automatically establish a constitutional violation.",
-
-        "The Court’s approach requires an examination of the complete service structure and relevant classification criteria before determining whether pay differentiation is lawful.",
+        "These questions are far more important than the labels used in a complaint.",
       ],
     },
 
     {
-      heading: "7. Equal Pay and Contractual or Outsourced Employees",
+      heading: "What Businesses Should Keep in Mind",
 
       paragraphs: [
-        "The question becomes more complex where employees are engaged through contractors or outsourcing agencies.",
+        "The Supreme Court's approach has practical importance for businesses, entrepreneurs, directors, partners and investors.",
 
-        "The Supreme Court has also dealt with situations involving contractual workers and regular employees. In 2026, the Court reiterated that workers engaged through third-party contractors do not automatically acquire the same status and benefits as regular employees merely because they perform work at the same establishment.",
-
-        "The legal relationship between the worker, contractor and principal employer therefore becomes important.",
-
-        "Similarly, the Delhi High Court observed in 2026 that a pay-parity claim based on the State of Punjab v. Jagjit Singh principle operates within an established employer-employee relationship; outsourced personnel cannot simply claim parity with regular staff without establishing the requisite direct employment relationship or challenging the outsourcing arrangement on appropriate grounds.",
-
-        "This demonstrates why employment status and the source of recruitment can be crucial in pay-parity litigation.",
-      ],
-    },
-
-    {
-      heading: "8. What the Latest Judgment Means for Employers",
-
-      paragraphs: [
-        "The judgment provides useful guidance for employers, particularly government departments and institutions operating structured pay scales.",
-
-        "Employers should ensure that differences in remuneration are supported by objective and legally defensible criteria.",
-
-        "A sound pay structure should, where relevant, take into account:",
+        "Before treating a contractual dispute as a criminal matter, it is important to examine:",
       ],
 
       numberedList: [
-        "Qualifications",
-        "Recruitment method",
-        "Prior experience",
-        "Nature of duties",
-        "Level of responsibility",
-        "Working conditions",
-        "Accountability",
-        "Applicable service rules or regulations",
-      ],
-
-      paragraphsAfterList: [
-        "At the same time, employers should avoid arbitrary distinctions that cannot be supported by the actual requirements of the respective posts.",
-      ],
-    },
-
-    {
-      heading: "9. What Employees Should Consider Before Claiming Pay Parity",
-
-      paragraphs: [
-        "An employee considering a claim for equal pay should first examine the complete service conditions rather than relying solely on a comparison of salaries.",
-
-        "Relevant documents may include:",
-      ],
-
-      list: [
-        "Appointment letters",
-        "Recruitment rules",
-        "Service regulations",
-        "Job descriptions",
-        "Pay-scale notifications",
-        "Government orders",
-        "Promotion or transfer rules",
-        "Qualification requirements",
-        "Records showing actual duties and responsibilities",
-        "Evidence regarding the experience and service conditions of the reference employees",
-      ],
-
-      paragraphsAfterList: [
-        "A proper legal claim should establish substantive equivalence, rather than simply asserting that the employees perform similar work.",
+        "What was the original agreement? The terms of the contract can help establish what each party actually agreed to do.",
+        "What representations were made? False representations made before entering into the transaction can become particularly significant.",
+        "What was the intention at the time of the transaction? This is often the heart of a cheating allegation.",
+        "What happened afterwards? Subsequent conduct can provide context, but a later failure does not automatically prove that the original intention was dishonest.",
+        "Was there entrustment? This becomes important when criminal breach of trust is alleged.",
+        "Is the dispute really about performance or payment? If the core complaint is simply non-payment, delay or non-performance, civil or commercial remedies may be more appropriate unless additional facts disclose criminality.",
       ],
     },
 
     {
       heading:
-        "10. Constitutional Balance: Equality and Reasonable Classification",
+        'The Difference Between "Could Not Perform" and "Never Intended to Perform"',
 
-      paragraphs: [
-        "Article 14 does not require every employee to receive identical treatment in every circumstance.",
+      paragraphs: ["This distinction can be understood very simply."],
 
-        "Indian constitutional law permits reasonable classification, provided the classification is founded on an intelligible differentia and has a rational connection with the objective sought to be achieved.",
+      subsections: [
+        {
+          heading: '"Could not perform"',
+          paragraphs: [
+            "A person enters into a contract honestly intending to fulfil it but later becomes unable to do so. This may amount to a breach of contract.",
+          ],
+        },
 
-        "The latest Supreme Court decision applies this principle to pay structures by recognising that experience and the manner of recruitment can, in an appropriate case, provide a rational basis for different treatment.",
+        {
+          heading: '"Never intended to perform"',
+          paragraphs: [
+            "A person enters into the transaction knowing that the promise will not be fulfilled and uses a false promise to obtain money or property. This may potentially amount to cheating.",
+          ],
+        },
       ],
 
-      highlight: "“Are these employees doing similar work?”",
-
-      paragraphsAfterHighlight: ["It is more accurately:"],
-
-      secondHighlight:
-        "“Are the employees similarly situated in all legally relevant respects, and is the difference in remuneration supported by a rational and lawful basis?”",
+      paragraphsAfterSubsections: [
+        "The difference may appear small in words, but legally it can be significant.",
+      ],
     },
 
     {
-      heading: "11. Key Takeaways from the Supreme Court’s Latest Position",
+      heading: "A Balanced Approach Is Necessary",
 
       paragraphs: [
-        "The recent decision in G.P. Sangeetha v. State of Kerala reinforces several important principles:",
-      ],
+        "The Supreme Court's approach protects both sides. On one hand, genuine victims of fraud must have access to criminal law where the facts actually disclose an offence.",
 
-      list: [
-        "Equal pay for equal work is not an automatic entitlement merely because duties appear similar.",
-        "Job designation alone is insufficient to establish pay parity.",
-        "Experience can be a legitimate basis for differentiation in pay.",
-        "Recruitment through different channels may be relevant.",
-        "Duties, responsibilities, qualifications and service conditions must be examined comprehensively.",
-        "The claimant bears the burden of establishing the requisite parity.",
-        "Reasonable classification under Article 14 can justify different pay structures.",
-        "Contractual or outsourced employees cannot automatically claim the status and benefits of regular employees merely because they perform similar functions.",
+        "On the other hand, individuals and businesses should not be exposed to criminal prosecution merely because a commercial transaction failed. This balance is particularly important in modern business relationships, where contracts often involve large sums of money and complex obligations.",
+
+        'A business failure should not automatically become a criminal case. But genuine fraud should not be hidden behind the label of a "commercial dispute."',
       ],
     },
 
@@ -304,27 +183,15 @@ const equalPay = {
       heading: "Conclusion",
 
       paragraphs: [
-        "The Supreme Court’s latest position does not dilute the constitutional principle of equality in employment. Instead, it emphasises that pay parity must be established through a careful comparison of the employees’ actual service conditions and legally relevant characteristics.",
+        "The Supreme Court's position can be summed up in a simple principle: Every broken promise is not cheating, and every commercial dispute is not a criminal offence.",
 
-        "The decision in G.P. Sangeetha & Ors. v. State of Kerala & Ors. makes it clear that the doctrine of “equal pay for equal work” cannot be invoked mechanically. Where differences in experience, recruitment method, responsibility or other relevant service characteristics provide a rational basis for classification, different pay scales may be legally sustainable.",
+        "What matters is the conduct and intention behind the transaction. If a person genuinely intended to fulfil a contract but subsequently failed, the dispute may ordinarily be addressed through civil or commercial remedies.",
 
-        "For both employers and employees, the practical lesson is significant: pay parity disputes should be assessed on the substance of the employment relationship, the actual nature of work and the governing service framework—not merely on job titles or superficial similarity of duties.",
-      ],
-    },
+        "If, however, the person used deception and had dishonest intentions from the very beginning to induce another person to part with money or property, criminal law may become applicable.",
 
-    {
-      heading: "Disclaimer",
+        'The distinction is therefore not merely between a "civil case" and a "criminal case." It is about understanding what actually happened when the relationship began.',
 
-      paragraphs: [
-        "This article is intended for general legal and informational purposes and should not be treated as legal advice. The application of the principle of equal pay depends on the facts, applicable service rules, employment relationship and judicial precedents relevant to each case.",
-      ],
-    },
-
-    {
-      heading: "Principal Case",
-
-      paragraphs: [
-        "G.P. Sangeetha & Ors. v. State of Kerala & Ors., 2026 (SC) 948, Supreme Court of India.",
+        "For businesses and individuals alike, the message is clear: A failed deal may be a dispute. A dishonest deal from the beginning may be a crime. The law looks at the difference.",
       ],
     },
   ],

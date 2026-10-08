@@ -91,7 +91,7 @@
   transition: transform 0.3s ease;
 }
 
-/* Answer animation */
+
 .answerWrapper {
   display: grid;
   grid-template-rows: 0fr;
@@ -117,7 +117,7 @@
   font-size: 0.95rem;
   line-height: 1.7;
 }
-/* Tablet */
+
 
 @media screen and (max-width: 768px) {
   .faqCon {
@@ -162,7 +162,7 @@
 }
 
 
-/* Mobile */
+
 
 @media screen and (max-width: 480px) {
   .faqCon {
@@ -223,7 +223,6 @@
 }
 
 
-/* Very small phones */
 
 @media screen and (max-width: 360px) {
   .faqCon {

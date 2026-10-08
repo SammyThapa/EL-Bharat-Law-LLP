@@ -13,9 +13,9 @@ function News() {
       id: 1,
       image: img1,
       type: "Legal Update",
-      date: "8 Aug, 2026",
+      date: "8 Oct, 2026",
       title:
-        "SUPREME COURT DIRECTS TIME-BOUND TRIALS IN DOWRY DEATH & CRUELTY CASES",
+        "SUPREME COURT SETS ASIDE ELECTIONS IN 50 PUNJAB MUNICIPAL WARDS, ORDERS FRESH POLLS UNDER JUDICIAL MONITORING",
       slug: "supreme-court-directs-time-bound-trials",
     },
     {
