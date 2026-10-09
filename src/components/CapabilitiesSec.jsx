@@ -61,7 +61,7 @@ function CapabilitiesSec() {
       description: "Launch your global venture with start-up visa support",
       readMore: "Read More",
     },
-  ];
+  ];    
 
   return (
     <motion.section

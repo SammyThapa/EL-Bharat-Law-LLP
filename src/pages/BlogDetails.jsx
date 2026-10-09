@@ -4,11 +4,17 @@ import vehicleRepossession from "../data/blogs/VehicleRepossession";
 import style from "../pages/BlogDetails.module.css";
 import pmlaPropertyAttachment from "../data/blogs/pmlaPropertyAttachment";
 import { motion } from "motion/react";
+import unethicalPharmaceuticalMarketing from "../data/blogs/unethicalPharmaceuticalMarketing";
 
 function BlogDetails() {
   const { slug } = useParams();
 
-  const blogs = [equalPay, vehicleRepossession, pmlaPropertyAttachment];
+  const blogs = [
+    equalPay,
+    vehicleRepossession,
+    pmlaPropertyAttachment,
+    unethicalPharmaceuticalMarketing,
+  ];
 
   const blog = blogs.find((item) => item.slug === slug);
 

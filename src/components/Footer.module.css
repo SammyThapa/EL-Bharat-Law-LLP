@@ -19,7 +19,6 @@
 }
 
 
-/* ---------------- LOGO / SOCIALS ---------------- */
 
 .socials {
   display: flex;
@@ -64,7 +63,6 @@
 }
 
 
-/* ---------------- QUICK LINKS ---------------- */
 
 .quickLinks h3 {
   margin: 0 0 25px;
@@ -165,7 +163,6 @@
   font-size: 17px;
   font-weight: 600;
 }
-/* ---------------- TABLET ---------------- */
 
 @media screen and (max-width: 900px) {
   .mainCon {
@@ -207,7 +204,6 @@
 }
 
 
-/* ---------------- MOBILE ---------------- */
 
 @media screen and (max-width: 600px) {
   .mainCon {
@@ -275,7 +271,6 @@
 }
 
 
-/* ---------------- SMALL PHONES ---------------- */
 
 @media screen and (max-width: 400px) {
   .mainCon {

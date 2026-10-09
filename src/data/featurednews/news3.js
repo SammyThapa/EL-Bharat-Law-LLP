@@ -1,125 +1,179 @@
 import img1 from "../../assets/featuredNews/fnews3.png";
+
 const pmlaAdjudicatingAuthority = {
   id: 3,
   img: img1,
+
   title:
-    "Supreme Court Reserves Verdict on Single-Member PMLA Adjudicating Authority",
-  slug: "supreme-court-reserves-verdict-on-single-member-pmla-adjudicating-authority",
-  date: "15 Sep, 2026",
+    "SUPREME COURT CALLS FOR STRONGER REGULATION OF PHARMACEUTICAL MARKETING PRACTICES: A NEW COMPLIANCE CHALLENGE FOR THE HEALTHCARE INDUSTRY",
+
+  slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
+
+  date: "8 Oct, 2026",
   type: "Legal News",
 
   introduction:
-    "The Supreme Court of India has reserved judgment on an important question concerning the constitution and functioning of the Adjudicating Authority under the Prevention of Money Laundering Act, 2002 (PMLA). The central issue before the Court is whether an Adjudicating Authority can confirm a provisional attachment of property made by the Enforcement Directorate (ED) when the Authority is functioning through a single member without a judicial member.",
+    "Can pharmaceutical companies be held accountable when promotional incentives risk influencing medical prescriptions? The Supreme Court of India has renewed the focus on ethical pharmaceutical marketing, directing the Union Government to establish a committee to examine the need for a stronger regulatory framework governing pharmaceutical companies' promotional practices. On 8 October 2026, a Bench comprising Justice Vikram Nath and Justice Sandeep Mehta directed the Centre to constitute the committee within two weeks, if it had not already been established. The committee is expected to examine existing regulatory mechanisms, identify enforcement gaps, and submit its recommendations within two months of its first meeting. The directions were issued in proceedings concerning alleged unethical marketing practices by pharmaceutical companies in their dealings with healthcare professionals.",
 
   content: [
     {
-      heading: "What Is the Legal Issue?",
+      heading:
+        "1. The Legal Issue: Promotional Incentives and Medical Independence",
+
       paragraphs: [
-        "Under Section 5 of the PMLA, the ED may provisionally attach property believed to constitute “proceeds of crime”, subject to statutory conditions.",
-        "The matter subsequently comes before the Adjudicating Authority under Section 6, which determines whether the property involved in the proceedings is liable to remain attached.",
-        "Section 6(2) provides that the Adjudicating Authority consists of a Chairperson and two other Members, with members having experience in law, administration, finance or accountancy.",
-        "The controversy arises because Section 6(5) permits the Authority to exercise jurisdiction through benches consisting of one or two members. The question is whether such a provision permits a single-member bench without a judicial member to undertake the substantive adjudication contemplated under Section 8.",
+        "Pharmaceutical marketing plays a legitimate role in communicating information about medicines, treatment options, and therapeutic developments. However, concerns arise when promotional activities involve gifts, hospitality, sponsored travel, entertainment, monetary benefits, or other inducements that may influence prescribing decisions.",
+
+        "The petitioners raised concerns that such practices could encourage the prescription of expensive branded medicines, unnecessary treatments, or irrational combinations of drugs.",
+
+        "These allegations raise an important regulatory question: Is the existing framework sufficiently effective in preventing commercial interests from compromising independent medical judgment?",
+
+        "The Supreme Court's intervention seeks a comprehensive examination of this issue, with particular attention to transparency, accountability, monitoring, and enforcement.",
       ],
     },
 
     {
-      heading: "Why Does It Matter?",
+      heading: "2. What Has the Supreme Court Directed?",
+
       paragraphs: [
-        "The Supreme Court focused particularly on the civil consequences of attachment proceedings.",
-        "Although provisional attachment does not by itself finally determine criminal guilt, it can substantially restrict a person’s ability to deal with property. The Court therefore questioned whether such proceedings can be treated as a routine administrative exercise.",
-        "During the hearing, the Bench also raised concerns about whether meaningful “application of mind” is possible when a very large number of attachment matters must be decided within the statutory period.",
-        "The Court sought data from the ED concerning the number of attachment proceedings and their disposal, particularly in the context of the 180-day statutory period.",
+        "The Court has directed the Union Government to undertake a time-bound regulatory review through the proposed committee. The committee's mandate includes:",
+      ],
+
+      list: [
+        "Examining the adequacy of the existing statutory and regulatory framework governing pharmaceutical marketing.",
+        "Assessing the effectiveness of current monitoring, oversight, and enforcement mechanisms.",
+        "Considering measures to improve transparency, accountability, and regulatory compliance.",
+        "Evaluating the need for an appropriate statutory or regulatory mechanism to address unethical marketing practices.",
+        "Considering relevant submissions and suggestions from petitioners, intervenors, and other stakeholders.",
+      ],
+
+      paragraphsAfterList: [
+        "The committee must submit its recommendations within two months of its first meeting. The Union Government must subsequently consider those recommendations and take an appropriate, reasoned decision at the earliest.",
+
+        "The Court has also required the Centre to file a compliance affidavit detailing the steps taken to implement its directions.",
+
+        "Important distinction: The Court has directed a regulatory examination and the formulation of recommendations. This does not, by itself, mean that a new pharmaceutical marketing statute has already been enacted.",
       ],
     },
 
     {
-      heading: "The Scale of the Issue",
+      heading: "3. The Existing Regulatory Framework: UCPMP 2024",
+
       paragraphs: [
-        "During the proceedings, petitioners referred to ED data and submitted that 8,851 cases had been initiated during the relevant period, while only 60 had proceeded to trial. The figure was disputed by the ED.",
-        "The submissions were used to highlight a broader concern: property may remain subject to the consequences of PMLA proceedings even where the underlying prosecution does not ultimately reach trial.",
+        "An important part of this development is the Uniform Code for Pharmaceutical Marketing Practices (UCPMP) 2024. The UCPMP provides a framework for ethical pharmaceutical promotion and addresses interactions between pharmaceutical companies and healthcare professionals. It is intended to discourage promotional practices that could improperly influence medical decisions.",
+
+        "However, the central legal concern is whether the existing framework provides sufficiently effective and enforceable safeguards against companies that engage in unethical promotional activities.",
+
+        "The distinction between a regulatory code and a statutory framework is significant. A code may prescribe expected standards of conduct, while statutory regulation can provide a more formal legal foundation for obligations, enforcement powers, and consequences for noncompliance, depending on the legislation enacted.",
+
+        "The Supreme Court's directions place the adequacy of the existing framework and the need for stronger legal enforcement at the centre of the regulatory review.",
       ],
     },
 
     {
-      heading: "Petitioners’ Argument",
+      heading:
+        "4. Constitutional Significance: Article 21 and the Right to Health",
+
       paragraphs: [
-        "The petitioners argued that the Adjudicating Authority performs a quasi-judicial function, particularly because it has to determine whether attached property is connected with money laundering and whether the attachment should be confirmed.",
-        "They relied, among other things, on the Supreme Court’s earlier decision in Vijay Madanlal Choudhary v. Union of India, concerning the statutory framework and functioning of PMLA authorities.",
-        "Their argument essentially raises the question of whether the institutional composition contemplated by the PMLA requires meaningful judicial participation when determining matters having significant consequences for property rights.",
+        "The proceedings also engage the constitutional protection of life and personal liberty under Article 21 of the Constitution of India. The Supreme Court has recognised the importance of healthcare in the constitutional understanding of the right to life.",
+
+        "In Consumer Education and Research Centre v. Union of India, (1995) 3 SCC 42, the Court discussed the relationship between health and the right to life.",
+
+        "In Paschim Banga Khet Mazdoor Samity v. State of West Bengal, (1996) 4 SCC 37, the Court examined the State's constitutional obligations concerning the provision of adequate medical facilities.",
+
+        "These decisions provide broader constitutional context for regulatory measures intended to protect public health.",
+
+        "In the pharmaceutical marketing context, the concern is that commercial inducements may create risks for patients if prescribing decisions are influenced by promotional considerations rather than appropriate clinical judgment. Potential consequences include unnecessary expenditure, inappropriate medication, and reduced confidence in healthcare institutions.",
+
+        "The regulatory challenge is therefore not limited to commercial ethics. It also concerns the protection of patients and the integrity of medical decision-making.",
       ],
     },
 
     {
-      heading: "ED’s Position",
-      paragraphs: [
-        "The ED, on the other hand, relied upon the statutory scheme permitting the Authority to function through one- or two-member benches.",
-        "The agency’s position was that the statutory framework should be read harmoniously and that every attachment proceeding does not necessarily require the presence of a judicial member.",
-      ],
-    },
+      heading:
+        "5. Implications for Pharmaceutical Companies and Healthcare Professionals",
 
-    {
-      heading: "Key Legal Provisions",
+      paragraphs: [
+        "The proposed regulatory review may have significant implications for businesses operating across the pharmaceutical and healthcare sectors.",
+      ],
+
       subsections: [
         {
-          heading: "Section 5, PMLA",
+          heading: "For Pharmaceutical Companies",
+
           paragraphs: [
-            "Deals with provisional attachment of property involved in money laundering.",
+            "Pharmaceutical companies should review promotional policies and marketing arrangements, examine gifts, hospitality, sponsorships, and other benefits offered to healthcare professionals, strengthen internal approval procedures and compliance documentation, assess whether marketing practices align with applicable legal requirements and ethical standards, and establish mechanisms to identify, report, and address potential violations.",
           ],
         },
+
         {
-          heading: "Section 6, PMLA",
+          heading: "For Healthcare Professionals",
+
           paragraphs: [
-            "Provides for the constitution, composition and functioning of the Adjudicating Authority.",
+            "Healthcare professionals should maintain professional independence in prescribing decisions, exercise caution when accepting benefits or hospitality from pharmaceutical companies, ensure that treatment decisions remain guided by patients' clinical needs, and follow applicable professional-conduct and ethical requirements.",
           ],
         },
+
         {
-          heading: "Section 8, PMLA",
+          heading: "For Compliance and Legal Teams",
+
           paragraphs: [
-            "Provides the mechanism through which the Adjudicating Authority adjudicates the provisional attachment and determines whether the property is involved in money laundering.",
-          ],
-        },
-        {
-          heading: "Section 26, PMLA",
-          paragraphs: [
-            "Provides the appellate mechanism against orders of the Adjudicating Authority.",
+            "The development highlights the importance of risk-based compliance reviews, documented approval processes, internal investigations, employee training, and periodic assessments of marketing practices.",
+
+            "Legal teams should also distinguish between conduct prohibited under existing law, conduct addressed by professional or industry codes, and practices that may become subject to additional statutory obligations following future regulatory changes.",
           ],
         },
       ],
     },
 
     {
-      heading: "Practical Significance",
+      heading: "6. A Practical Example",
+
       paragraphs: [
-        "The Supreme Court’s eventual ruling may have implications for:",
+        "Consider a pharmaceutical company that offers expensive gifts or sponsored international travel to medical practitioners while promoting a particular branded medicine. If such benefits are intended to influence prescribing decisions, the arrangement may raise serious ethical and compliance concerns under the applicable framework.",
+
+        "A robust compliance programme should examine the purpose of the benefit, the identity of the recipient, the applicable restrictions, the approval process, and the supporting documentation.",
+
+        "The issue becomes more significant if promotional incentives are associated with prescriptions that are unnecessarily expensive or not justified by the patient's clinical requirements.",
+
+        "The proposed regulatory review may help clarify the adequacy of existing safeguards and whether stronger legal mechanisms are necessary.",
+
+        "This example is illustrative; the legality of any particular arrangement depends on the applicable rules and the facts established.",
       ],
-      list: [
-        "Validity of attachment confirmation orders passed by single-member benches",
-        "Requirement, if any, of a judicial member in particular PMLA proceedings",
-        "Interpretation of Sections 5, 6 and 8 of the PMLA",
-        "Procedural safeguards available to persons whose properties are attached",
-        "Institutional independence and quasi-judicial functioning of specialised authorities",
-        "Future challenges to PMLA attachment proceedings",
+    },
+
+    {
+      heading: "7. What Happens Next?",
+
+      paragraphs: [
+        "The next stage is the committee's examination of the existing regulatory framework and its recommendations to the Union Government. The principal questions include:",
       ],
+
+      numberedList: [
+        "Whether the UCPMP 2024 provides sufficient safeguards against unethical pharmaceutical marketing.",
+        "Whether statutory backing is necessary to improve compliance and enforcement.",
+        "What monitoring mechanisms should apply to pharmaceutical companies and their promotional activities.",
+        "What proportionate consequences should follow established violations, if additional legal provisions are introduced.",
+        "How transparency and accountability can be strengthened without unnecessarily restricting legitimate pharmaceutical communication and research.",
+      ],
+
       paragraphsAfterList: [
-        "Importantly, the Supreme Court has not yet delivered its final judgment on this issue. Therefore, the present legal position should not be treated as finally settled.",
+        "The effectiveness of the eventual framework will depend not only on the rules adopted but also on their implementation, oversight, and enforceability.",
       ],
     },
 
     {
-      heading: "Legal Insight",
+      heading:
+        "Conclusion: Ethical Marketing Must Be Supported by Effective Compliance",
+
       paragraphs: [
-        "The case raises a fundamental procedural question within India’s anti-money-laundering framework:",
-      ],
-      highlight:
-        "When an executive agency exercises extensive powers affecting property rights, what level of independent adjudicatory scrutiny is required before that attachment is confirmed?",
-      paragraphsAfterHighlight: [
-        "The answer may have significance beyond the immediate PMLA proceedings because it concerns the balance between effective financial-crime enforcement, procedural fairness and institutional independence.",
-      ],
-    },
+        "The Supreme Court's directions mark an important development in the continuing examination of pharmaceutical marketing regulation in India. The central issue is how to maintain legitimate commercial activity while ensuring that promotional incentives do not undermine medical independence or patient welfare.",
 
-    {
-      heading: "Leave a Comment",
-      paragraphs: [],
+        "For pharmaceutical companies, healthcare professionals, and legal compliance teams, this development reinforces the importance of ethical conduct, regulatory preparedness, and transparent business practices.",
+
+        "Ultimately, the integrity of pharmaceutical marketing must be measured not merely by compliance on paper, but by whether the applicable framework effectively protects patients and supports independent medical judgment.",
+
+        "At EL Bharat Law LLP, we recognise the growing importance of regulatory compliance, corporate governance, and risk management in sectors where business practices directly affect public welfare.",
+      ],
     },
   ],
 };

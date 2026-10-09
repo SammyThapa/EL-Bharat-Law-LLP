@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <div className={style.mainCon}>
-      {/* Logo */}
+      {/* Logo */} 
       <Link to="/" onClick={closeMenu}>
         <img src={logo} alt="logo img" />
       </Link>
@@ -157,7 +157,7 @@ function Header() {
 
         <li>
           <Link to="/news" onClick={closeMenu}>
-            Legal News
+            Legal News 
           </Link>
         </li>
 

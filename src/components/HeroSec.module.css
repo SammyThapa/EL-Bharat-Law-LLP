@@ -82,7 +82,6 @@
 }
 
 
-/* Tablet */
 
 @media (max-width: 900px) {
   .heroSection {
@@ -117,7 +116,6 @@
 }
 
 
-/* Mobile */
 
 @media (max-width: 600px) {
   .heroSection {
@@ -178,7 +176,6 @@
 }
 
 
-/* Small Phones */
 
 @media (max-width: 400px) {
   .heroSection {

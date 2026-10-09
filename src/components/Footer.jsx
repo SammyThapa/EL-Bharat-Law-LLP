@@ -52,7 +52,7 @@ function Footer() {
         <div className={style.subscribe}>
           <h3>Stay Updated</h3>
 
-          <p>Follow our latest legal articles, updates and insights.</p>
+          <p>Follow our latest legal articles, updates and insights .</p>
 
           <Link to="/news" className={style.subscribeButton}>
             Explore Legal Updates →

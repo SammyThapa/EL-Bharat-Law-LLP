@@ -2,9 +2,9 @@ import img from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img1 from "../assets/featuredNews/fnews1.png";
-import img2 from "../assets/featuredNews/fnews2.png";
-import img3 from "../assets/featuredNews/fnews3.png";
+import img2 from "../assets/featuredNews/fnews1.png";
+import img3 from "../assets/featuredNews/fnews2.png";
+import img1 from "../assets/featuredNews/fnews3.png";
 import { motion } from "motion/react";
 
 function News() {
@@ -12,6 +12,16 @@ function News() {
     {
       id: 1,
       image: img1,
+      date: "9 Oct, 2026",
+      type: "Legal Update",
+
+      title:
+        "SUPREME COURT CALLS FOR STRONGER REGULATION OF PHARMACEUTICAL MARKETING PRACTICES",
+      slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
+    },
+    {
+      id: 2,
+      image: img2,
       type: "Legal Update",
       date: "8 Oct, 2026",
       title:
@@ -19,22 +29,13 @@ function News() {
       slug: "supreme-court-directs-time-bound-trials",
     },
     {
-      id: 2,
-      image: img2,
+      id: 3,
+      image: img3,
       type: "Legal Update",
       date: "12 Aug, 2026",
       title:
         "Vehicle Repossession After Loan Default: Supreme Court Reinforces Due Process",
       slug: "vehicle-repossession-after-loan-default",
-    },
-    {
-      id: 3,
-      image: img3,
-      type: "Legal Update",
-      date: "18 Aug, 2026",
-      title:
-        "Supreme Court Reserves Verdict on Single-Member PMLA Adjudicating Authority",
-      slug: "supreme-court-reserves-verdict-on-single-member-pmla-adjudicating-authority",
     },
   ];
 

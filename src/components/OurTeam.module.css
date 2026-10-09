@@ -13,7 +13,7 @@
   border-bottom: 1px solid rgba(18, 48, 79, 0.2);
 }
 
-/* Text */
+
 
 .content {
   flex: 1;
@@ -58,7 +58,6 @@
   opacity: 0.75;
 }
 
-/* Image */
 
 .ourTeam img {
   width: 45%;
@@ -112,9 +111,7 @@
 .ourTeam button:hover a {
   color: #111;
 }
-/* =========================
-   TABLET
-========================= */
+
 
 @media (max-width: 900px) {
   .ourTeam {
@@ -154,9 +151,7 @@
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+
 
 @media (max-width: 600px) {
   .ourTeam {
@@ -213,9 +208,7 @@
 }
 
 
-/* =========================
-   SMALL MOBILE
-========================= */
+
 
 @media (max-width: 400px) {
   .ourTeam {
