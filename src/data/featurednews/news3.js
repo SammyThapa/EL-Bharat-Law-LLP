@@ -9,11 +9,11 @@ const pmlaAdjudicatingAuthority = {
 
   slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
 
-  date: "8 Oct, 2026",
+  date: "9 Oct, 2026",
   type: "Legal News",
 
   introduction:
-    "Can pharmaceutical companies be held accountable when promotional incentives risk influencing medical prescriptions? The Supreme Court of India has renewed the focus on ethical pharmaceutical marketing, directing the Union Government to establish a committee to examine the need for a stronger regulatory framework governing pharmaceutical companies' promotional practices. On 8 October 2026, a Bench comprising Justice Vikram Nath and Justice Sandeep Mehta directed the Centre to constitute the committee within two weeks, if it had not already been established. The committee is expected to examine existing regulatory mechanisms, identify enforcement gaps, and submit its recommendations within two months of its first meeting. The directions were issued in proceedings concerning alleged unethical marketing practices by pharmaceutical companies in their dealings with healthcare professionals.",
+    "Can pharmaceutical companies be held   accountable when promotional incentives risk influencing medical prescriptions? The Supreme Court of India has renewed the focus on ethical pharmaceutical marketing, directing the Union Government to establish a committee to examine the need for a stronger regulatory framework governing pharmaceutical companies' promotional practices. On 8 October 2026, a Bench comprising Justice Vikram Nath and Justice Sandeep Mehta directed the Centre to constitute the committee within two weeks, if it had not already been established. The committee is expected to examine existing regulatory mechanisms, identify enforcement gaps, and submit its recommendations within two months of its first meeting. The directions were issued in proceedings concerning alleged unethical marketing practices by pharmaceutical companies in their dealings with healthcare professionals.",
 
   content: [
     {

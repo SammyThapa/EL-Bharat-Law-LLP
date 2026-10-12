@@ -9,6 +9,7 @@ import style from "../pages/NewsDetails.module.css";
 import news1 from "../data/featurednews/news1";
 import news2 from "../data/featurednews/news2";
 import news3 from "../data/featurednews/news3";
+import news4 from "../data/featurednews/news4";
 import bigNews from "../data/featurednews/bignews";
 
 function NewsDetails() {
@@ -21,6 +22,7 @@ function NewsDetails() {
     news2,
     news3,
     news1,
+    news4,
     bigNews,
   ];
 

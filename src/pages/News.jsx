@@ -2,9 +2,12 @@ import img from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img2 from "../assets/featuredNews/fnews1.png";
-import img3 from "../assets/featuredNews/fnews2.png";
-import img1 from "../assets/featuredNews/fnews3.png";
+import img3 from "../assets/featuredNews/fnews1.png";
+import img4 from "../assets/featuredNews/fnews2.png";
+import img2 from "../assets/featuredNews/fnews3.png";
+
+import img1 from "../assets/featuredNews/fnews5.png";
+
 import { motion } from "motion/react";
 
 function News() {
@@ -12,6 +15,17 @@ function News() {
     {
       id: 1,
       image: img1,
+      date: "12 Oct, 2026",
+      type: "Legal Update",
+
+      title:
+        "SUPREME COURT INTERVENES IN DELHI PROTEST RESTRICTIONS: FUNDAMENTAL RIGHTS, PUBLIC ORDER AND EXECUTIVE ACCOUNTABILITY",
+
+      slug: "supreme-court-delhi-protest-restrictions-fundamental-rights-public-order-executive-accountability",
+    },
+    {
+      id: 2,
+      image: img2,
       date: "9 Oct, 2026",
       type: "Legal Update",
 
@@ -20,8 +34,8 @@ function News() {
       slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
     },
     {
-      id: 2,
-      image: img2,
+      id: 3,
+      image: img3,
       type: "Legal Update",
       date: "8 Oct, 2026",
       title:
@@ -29,8 +43,8 @@ function News() {
       slug: "supreme-court-directs-time-bound-trials",
     },
     {
-      id: 3,
-      image: img3,
+      id: 4,
+      image: img4,
       type: "Legal Update",
       date: "12 Aug, 2026",
       title:
