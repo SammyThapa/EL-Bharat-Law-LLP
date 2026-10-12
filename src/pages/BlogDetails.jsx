@@ -5,6 +5,7 @@ import style from "../pages/BlogDetails.module.css";
 import pmlaPropertyAttachment from "../data/blogs/pmlaPropertyAttachment";
 import { motion } from "motion/react";
 import unethicalPharmaceuticalMarketing from "../data/blogs/unethicalPharmaceuticalMarketing";
+import RBI from "../data/blogs/RBI";
 
 function BlogDetails() {
   const { slug } = useParams();
@@ -14,6 +15,7 @@ function BlogDetails() {
     vehicleRepossession,
     pmlaPropertyAttachment,
     unethicalPharmaceuticalMarketing,
+    RBI,
   ];
 
   const blog = blogs.find((item) => item.slug === slug);
