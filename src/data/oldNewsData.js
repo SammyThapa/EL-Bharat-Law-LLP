@@ -1,11 +1,22 @@
-import img1 from "../assets/newsImage/img1.png";
-import img2 from "../assets/newsImage/img2.png";
-import img3 from "../assets/newsImage/img3.png";
+import img1 from "../assets/newsImage/img4.png";
+
+import img2 from "../assets/newsImage/img1.png";
+import img3 from "../assets/newsImage/img2.png";
+import img4 from "../assets/newsImage/img3.png";
 
 const oldData = [
   {
     id: 1,
     image: img1,
+    type: "Legal Update",
+    date: "12 Aug, 2026",
+    title:
+      "Vehicle Repossession After Loan Default: Supreme Court Reinforces Due Process",
+    slug: "vehicle-repossession-after-loan-default",
+  },
+  {
+    id: 1,
+    image: img2,
     type: "Legal Update",
     date: "8 Aug, 2026",
     title:
@@ -14,7 +25,7 @@ const oldData = [
   },
   {
     id: 2,
-    image: img2,
+    image: img3,
     type: "Legal Update",
     date: "12 Aug, 2026",
     title:
@@ -23,7 +34,7 @@ const oldData = [
   },
   {
     id: 3,
-    image: img3,
+    image: img4,
     type: "Legal Update",
     date: "18 Aug, 2026",
     title:

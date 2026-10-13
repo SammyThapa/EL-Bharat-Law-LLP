@@ -1,4 +1,4 @@
-import img1 from "../../assets/featuredNews/fnews2.png";
+import img1 from "../../assets/newsImage/img4.png";
 const vehicleRepossession = {
   id: 2,
   img: img1,

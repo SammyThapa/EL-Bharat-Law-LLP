@@ -2,11 +2,10 @@ import img from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img3 from "../assets/featuredNews/fnews1.png";
-import img4 from "../assets/featuredNews/fnews2.png";
-import img2 from "../assets/featuredNews/fnews3.png";
-
-import img1 from "../assets/featuredNews/fnews5.png";
+import img4 from "../assets/featuredNews/fnews1.png";
+import img3 from "../assets/featuredNews/fnews3.png";
+import img1 from "../assets/featuredNews/fnews6.png";
+import img2 from "../assets/featuredNews/fnews5.png";
 
 import { motion } from "motion/react";
 
@@ -15,6 +14,17 @@ function News() {
     {
       id: 1,
       image: img1,
+      date: "13 Oct, 2026",
+      type: "Legal Update",
+
+      title:
+        "KARNATAKA HIGH COURT STRIKES DOWN 56% SC/ST RESERVATION LAW: CONSTITUTIONAL EQUALITY AND THE 50% CEILING EXPLAINED",
+
+      slug: "karnataka-high-court-strikes-down-56-percent-sc-st-reservation-law-constitutional-equality-50-percent-ceiling",
+    },
+    {
+      id: 2,
+      image: img2,
       date: "12 Oct, 2026",
       type: "Legal Update",
 
@@ -24,8 +34,8 @@ function News() {
       slug: "supreme-court-delhi-protest-restrictions-fundamental-rights-public-order-executive-accountability",
     },
     {
-      id: 2,
-      image: img2,
+      id: 3,
+      image: img3,
       date: "9 Oct, 2026",
       type: "Legal Update",
 
@@ -34,22 +44,13 @@ function News() {
       slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
     },
     {
-      id: 3,
-      image: img3,
+      id: 4,
+      image: img4,
       type: "Legal Update",
       date: "8 Oct, 2026",
       title:
         "SUPREME COURT SETS ASIDE ELECTIONS IN 50 PUNJAB MUNICIPAL WARDS, ORDERS FRESH POLLS UNDER JUDICIAL MONITORING",
       slug: "supreme-court-directs-time-bound-trials",
-    },
-    {
-      id: 4,
-      image: img4,
-      type: "Legal Update",
-      date: "12 Aug, 2026",
-      title:
-        "Vehicle Repossession After Loan Default: Supreme Court Reinforces Due Process",
-      slug: "vehicle-repossession-after-loan-default",
     },
   ];
 
