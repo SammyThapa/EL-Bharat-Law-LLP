@@ -57,10 +57,10 @@ function News() {
   const featuredNews = {
     image: img,
     type: "Featured Insight",
-    date: "20 Aug, 2026",
+    date: "14 Oct, 2026",
     title:
-      "ALLAHABAD HIGH COURT STRIKES DOWN KEY PROVISIONS OF UP TENANCY LAW: A CONSTITUTIONAL ANALYSIS",
-    slug: "allahabad-high-court-strikes-down-key-provisions-of-up-tenancy-law",
+      "SUPREME COURT EXAMINES LEGAL IMMUNITY OF ELECTION COMMISSIONERS: CONSTITUTIONAL ACCOUNTABILITY UNDER SCRUTINY",
+    slug: "supreme-court-examines-legal-immunity-of-election-commissioners",
   };
 
   return (
@@ -122,7 +122,7 @@ function News() {
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            <Link to="/newsdetails/allahabad-high-court-strikes-down-key-provisions-of-up-tenancy-law">
+            <Link to="/newsdetails/supreme-court-examines-legal-immunity-of-election-commissioners">
               <article className={style.bigNews}>
                 <img src={featuredNews.image} alt={featuredNews.title} />
 
