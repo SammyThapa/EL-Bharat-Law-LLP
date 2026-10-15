@@ -7,6 +7,7 @@ import { motion } from "motion/react";
 import unethicalPharmaceuticalMarketing from "../data/blogs/unethicalPharmaceuticalMarketing";
 import RBI from "../data/blogs/RBI";
 import immunity from "../data/blogs/immunity";
+import midway from "../data/blogs/midway";
 
 function BlogDetails() {
   const { slug } = useParams();
@@ -18,6 +19,7 @@ function BlogDetails() {
     unethicalPharmaceuticalMarketing,
     RBI,
     immunity,
+    midway,
   ];
 
   const blog = blogs.find((item) => item.slug === slug);

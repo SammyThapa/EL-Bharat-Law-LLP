@@ -11,6 +11,7 @@ import news2 from "../data/featurednews/news2";
 import news3 from "../data/featurednews/news3";
 import news4 from "../data/featurednews/news4";
 import news5 from "../data/featurednews/news5";
+import news6 from "../data/featurednews/news6";
 import bigNews from "../data/featurednews/bignews";
 
 function NewsDetails() {
@@ -25,6 +26,8 @@ function NewsDetails() {
     news1,
     news4,
     news5,
+    news6,
+
     bigNews,
   ];
 
