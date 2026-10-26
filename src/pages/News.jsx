@@ -1,11 +1,11 @@
-import img from "../assets/featuredNews/fnews4.png";
+import img1 from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img4 from "../assets/featuredNews/fnews3.png";
-import img2 from "../assets/featuredNews/fnews6.png";
-import img1 from "../assets/featuredNews/fnews2.png";
-import img3 from "../assets/featuredNews/fnews5.png";
+import img3 from "../assets/featuredNews/fnews6.png";
+import img2 from "../assets/featuredNews/fnews2.png";
+import img4 from "../assets/featuredNews/fnews5.png";
+import img from "../assets/featuredNews/fnews7.png";
 
 import { motion } from "motion/react";
 
@@ -25,6 +25,16 @@ function News() {
     {
       id: 2,
       image: img2,
+      type: "Legal Update",
+      date: "14 Oct, 2026",
+      title:
+        "SUPREME COURT EXAMINES LEGAL IMMUNITY OF ELECTION COMMISSIONERS: CONSTITUTIONAL ACCOUNTABILITY UNDER SCRUTINY",
+      slug: "supreme-court-examines-legal-immunity-of-election-commissioners",
+    },
+
+    {
+      id: 3,
+      image: img3,
       date: "13 Oct, 2026",
       type: "Legal Update",
 
@@ -34,8 +44,8 @@ function News() {
       slug: "karnataka-high-court-strikes-down-56-percent-sc-st-reservation-law-constitutional-equality-50-percent-ceiling",
     },
     {
-      id: 2,
-      image: img3,
+      id: 4,
+      image: img4,
       date: "12 Oct, 2026",
       type: "Legal Update",
 
@@ -44,25 +54,16 @@ function News() {
 
       slug: "supreme-court-delhi-protest-restrictions-fundamental-rights-public-order-executive-accountability",
     },
-    {
-      id: 3,
-      image: img4,
-      date: "9 Oct, 2026",
-      type: "Legal Update",
-
-      title:
-        "SUPREME COURT CALLS FOR STRONGER REGULATION OF PHARMACEUTICAL MARKETING PRACTICES",
-      slug: "supreme-court-stronger-regulation-pharmaceutical-marketing-practices",
-    },
   ];
 
   const featuredNews = {
     image: img,
     type: "Featured Insight",
-    date: "14 Oct, 2026",
+    date: "23 Oct, 2026",
     title:
-      "SUPREME COURT EXAMINES LEGAL IMMUNITY OF ELECTION COMMISSIONERS: CONSTITUTIONAL ACCOUNTABILITY UNDER SCRUTINY",
-    slug: "supreme-court-examines-legal-immunity-of-election-commissioners",
+      "Supreme Court: Prior Approval Under Section 17A of the Prevention of Corruption Act Not Required to Investigate Bribe Demands",
+
+    slug: "supreme-court-section-17a-prior-approval-not-required-investigate-bribe-demands",
   };
 
   return (
@@ -124,7 +125,7 @@ function News() {
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            <Link to="/newsdetails/supreme-court-examines-legal-immunity-of-election-commissioners">
+            <Link to="/newsdetails/supreme-court-section-17a-prior-approval-not-required-investigate-bribe-demands">
               <article className={style.bigNews}>
                 <img src={featuredNews.image} alt={featuredNews.title} />
 

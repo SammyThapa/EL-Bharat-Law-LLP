@@ -8,6 +8,10 @@ import unethicalPharmaceuticalMarketing from "../data/blogs/unethicalPharmaceuti
 import RBI from "../data/blogs/RBI";
 import immunity from "../data/blogs/immunity";
 import midway from "../data/blogs/midway";
+import AI from "../data/blogs/AI";
+import evidence from "../data/blogs/evidence";
+import falseElection from "../data/blogs/falseElection";
+import finan from "../data/blogs/finan";
 
 function BlogDetails() {
   const { slug } = useParams();
@@ -20,6 +24,10 @@ function BlogDetails() {
     RBI,
     immunity,
     midway,
+    AI,
+    evidence,
+    falseElection,
+    finan,
   ];
 
   const blog = blogs.find((item) => item.slug === slug);
