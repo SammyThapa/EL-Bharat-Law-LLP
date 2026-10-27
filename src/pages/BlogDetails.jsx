@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import equalPay from "../data/blogs/equalPay";
 import vehicleRepossession from "../data/blogs/VehicleRepossession";
 import style from "../pages/BlogDetails.module.css";
-import pmlaPropertyAttachment from "../data/blogs/pmlaPropertyAttachment";
 import { motion } from "motion/react";
 import unethicalPharmaceuticalMarketing from "../data/blogs/unethicalPharmaceuticalMarketing";
 import RBI from "../data/blogs/RBI";
@@ -12,6 +11,8 @@ import AI from "../data/blogs/AI";
 import evidence from "../data/blogs/evidence";
 import falseElection from "../data/blogs/falseElection";
 import finan from "../data/blogs/finan";
+import illegalarrest from "../data/blogs/IllegalArrest";
+import demolish from "../data/blogs/demolish";
 
 function BlogDetails() {
   const { slug } = useParams();
@@ -19,7 +20,6 @@ function BlogDetails() {
   const blogs = [
     equalPay,
     vehicleRepossession,
-    pmlaPropertyAttachment,
     unethicalPharmaceuticalMarketing,
     RBI,
     immunity,
@@ -28,6 +28,8 @@ function BlogDetails() {
     evidence,
     falseElection,
     finan,
+    illegalarrest,
+    demolish,
   ];
 
   const blog = blogs.find((item) => item.slug === slug);

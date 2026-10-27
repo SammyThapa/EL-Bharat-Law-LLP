@@ -1,12 +1,12 @@
-import img1 from "../assets/featuredNews/fnews4.png";
+import img2 from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img3 from "../assets/featuredNews/fnews6.png";
-import img2 from "../assets/featuredNews/fnews2.png";
-import img4 from "../assets/featuredNews/fnews5.png";
+import img4 from "../assets/featuredNews/fnews6.png";
+import img3 from "../assets/featuredNews/fnews2.png";
+import img1 from "../assets/featuredNews/fnews8.png";
 import img from "../assets/featuredNews/fnews7.png";
-
+ 
 import { motion } from "motion/react";
 
 function News() {
@@ -14,6 +14,17 @@ function News() {
     {
       id: 1,
       image: img1,
+      date: "26 Oct, 2026",
+      type: "Legal Update",
+
+      title:
+        "SUPREME COURT DIRECTS ALTERNATIVE LAND FOR FLAT OWNERS BEFORE DEMOLITION OF APARTMENTS BUILT ON WATER-BODY LAND",
+
+      slug: "supreme-court-directs-alternative-land-flat-owners-before-demolition-apartments-water-body-land",
+    },
+    {
+      id: 2,
+      image: img2,
       date: "15 Oct, 2026",
       type: "Legal Update",
 
@@ -23,8 +34,8 @@ function News() {
       slug: "supreme-court-mid-course-fee-hikes-student-protection-fee-transparency-regulatory-compliance",
     },
     {
-      id: 2,
-      image: img2,
+      id: 3,
+      image: img3,
       type: "Legal Update",
       date: "14 Oct, 2026",
       title:
@@ -33,8 +44,8 @@ function News() {
     },
 
     {
-      id: 3,
-      image: img3,
+      id: 4,
+      image: img4,
       date: "13 Oct, 2026",
       type: "Legal Update",
 
@@ -42,17 +53,6 @@ function News() {
         "KARNATAKA HIGH COURT STRIKES DOWN 56% SC/ST RESERVATION LAW: CONSTITUTIONAL EQUALITY AND THE 50% CEILING EXPLAINED",
 
       slug: "karnataka-high-court-strikes-down-56-percent-sc-st-reservation-law-constitutional-equality-50-percent-ceiling",
-    },
-    {
-      id: 4,
-      image: img4,
-      date: "12 Oct, 2026",
-      type: "Legal Update",
-
-      title:
-        "SUPREME COURT INTERVENES IN DELHI PROTEST RESTRICTIONS: FUNDAMENTAL RIGHTS, PUBLIC ORDER AND EXECUTIVE ACCOUNTABILITY",
-
-      slug: "supreme-court-delhi-protest-restrictions-fundamental-rights-public-order-executive-accountability",
     },
   ];
 

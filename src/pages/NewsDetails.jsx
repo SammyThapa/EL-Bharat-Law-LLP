@@ -13,6 +13,8 @@ import news4 from "../data/featurednews/news4";
 import news5 from "../data/featurednews/news5";
 import news6 from "../data/featurednews/news6";
 import news7 from "../data/featurednews/news7";
+import news8 from "../data/featurednews/news8";
+
 import bigNews from "../data/featurednews/bignews";
 
 function NewsDetails() {
@@ -29,7 +31,7 @@ function NewsDetails() {
     news5,
     news6,
     news7,
-
+    news8,
     bigNews,
   ];
 
