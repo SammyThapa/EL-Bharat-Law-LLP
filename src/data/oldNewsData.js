@@ -1,3 +1,5 @@
+import img1 from "../assets/featuredNews/fnews6.png";
+
 import img4 from "../assets/newsImage/img4.png";
 import img3 from "../assets/featuredNews/fnews1.png";
 import img2 from "../assets/featuredNews/fnews3.png";
@@ -5,19 +7,18 @@ import img2 from "../assets/featuredNews/fnews3.png";
 import img5 from "../assets/newsImage/img1.png";
 import img6 from "../assets/newsImage/img2.png";
 import img7 from "../assets/newsImage/img3.png";
-import img1 from "../assets/featuredNews/fnews5.png";
 
 const oldData = [
   {
     id: 1,
     image: img1,
-    date: "26 Oct, 2026",
+    date: "13 Oct, 2026",
     type: "Legal Update",
 
     title:
-      "SUPREME COURT DIRECTS ALTERNATIVE LAND FOR FLAT OWNERS BEFORE DEMOLITION OF APARTMENTS BUILT ON WATER-BODY LAND",
+      "KARNATAKA HIGH COURT STRIKES DOWN 56% SC/ST RESERVATION LAW: CONSTITUTIONAL EQUALITY AND THE 50% CEILING EXPLAINED",
 
-    slug: "supreme-court-directs-alternative-land-flat-owners-before-demolition-apartments-water-body-land",
+    slug: "karnataka-high-court-strikes-down-56-percent-sc-st-reservation-law-constitutional-equality-50-percent-ceiling",
   },
   {
     id: 2,

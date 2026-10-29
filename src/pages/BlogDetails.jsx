@@ -13,6 +13,8 @@ import falseElection from "../data/blogs/falseElection";
 import finan from "../data/blogs/finan";
 import illegalarrest from "../data/blogs/IllegalArrest";
 import demolish from "../data/blogs/demolish";
+import infra from "../data/blogs/infra";
+import blog14 from "../data/blogs/blog14";
 
 function BlogDetails() {
   const { slug } = useParams();
@@ -30,6 +32,8 @@ function BlogDetails() {
     finan,
     illegalarrest,
     demolish,
+    infra,
+    blog14,
   ];
 
   const blog = blogs.find((item) => item.slug === slug);

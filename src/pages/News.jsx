@@ -1,12 +1,12 @@
-import img2 from "../assets/featuredNews/fnews4.png";
+import img3 from "../assets/featuredNews/fnews4.png";
 import style from "../pages/News.module.css";
 import oldData from "../data/oldNewsData";
 import { Link } from "react-router-dom";
-import img4 from "../assets/featuredNews/fnews6.png";
-import img3 from "../assets/featuredNews/fnews2.png";
-import img1 from "../assets/featuredNews/fnews8.png";
+import img4 from "../assets/featuredNews/fnews2.png";
+import img2 from "../assets/featuredNews/fnews8.png";
+import img1 from "../assets/featuredNews/fnews9.png";
 import img from "../assets/featuredNews/fnews7.png";
- 
+
 import { motion } from "motion/react";
 
 function News() {
@@ -14,6 +14,17 @@ function News() {
     {
       id: 1,
       image: img1,
+      date: "28 Oct, 2026",
+      type: "Legal Update",
+
+      title:
+        "PRESS FREEDOM VS. RIGHT TO PRIVACY: SUPREME COURT EXAMINES THE CONSTITUTIONAL BALANCE UNDER INDIA'S DIGITAL PERSONAL DATA PROTECTION FRAMEWORK",
+
+      slug: "press-freedom-vs-right-to-privacy-supreme-court-constitutional-balance-india-digital-personal-data-protection-framework",
+    },
+    {
+      id: 2,
+      image: img2,
       date: "26 Oct, 2026",
       type: "Legal Update",
 
@@ -23,8 +34,8 @@ function News() {
       slug: "supreme-court-directs-alternative-land-flat-owners-before-demolition-apartments-water-body-land",
     },
     {
-      id: 2,
-      image: img2,
+      id: 3,
+      image: img3,
       date: "15 Oct, 2026",
       type: "Legal Update",
 
@@ -34,36 +45,24 @@ function News() {
       slug: "supreme-court-mid-course-fee-hikes-student-protection-fee-transparency-regulatory-compliance",
     },
     {
-      id: 3,
-      image: img3,
+      id: 4,
+      image: img4,
       type: "Legal Update",
       date: "14 Oct, 2026",
       title:
         "SUPREME COURT EXAMINES LEGAL IMMUNITY OF ELECTION COMMISSIONERS: CONSTITUTIONAL ACCOUNTABILITY UNDER SCRUTINY",
       slug: "supreme-court-examines-legal-immunity-of-election-commissioners",
     },
-
-    {
-      id: 4,
-      image: img4,
-      date: "13 Oct, 2026",
-      type: "Legal Update",
-
-      title:
-        "KARNATAKA HIGH COURT STRIKES DOWN 56% SC/ST RESERVATION LAW: CONSTITUTIONAL EQUALITY AND THE 50% CEILING EXPLAINED",
-
-      slug: "karnataka-high-court-strikes-down-56-percent-sc-st-reservation-law-constitutional-equality-50-percent-ceiling",
-    },
   ];
 
   const featuredNews = {
     image: img,
     type: "Featured Insight",
-    date: "23 Oct, 2026",
+    date: "29 Oct, 2026",
     title:
-      "Supreme Court: Prior Approval Under Section 17A of the Prevention of Corruption Act Not Required to Investigate Bribe Demands",
+      "Supreme Court Questions Election Commission Over Form 6 Requirement for Deleted Voters in Delhi SIR",
 
-    slug: "supreme-court-section-17a-prior-approval-not-required-investigate-bribe-demands",
+    slug: "supreme-court-questions-election-commission-form-6-deleted-voters-delhi-sir",
   };
 
   return (
@@ -125,7 +124,7 @@ function News() {
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            <Link to="/newsdetails/supreme-court-section-17a-prior-approval-not-required-investigate-bribe-demands">
+            <Link to="/newsdetails/supreme-court-questions-election-commission-form-6-deleted-voters-delhi-sir">
               <article className={style.bigNews}>
                 <img src={featuredNews.image} alt={featuredNews.title} />
 
